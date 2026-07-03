@@ -10,6 +10,7 @@ function draw(){
     ellipse(300, 100,100,100);
     fill("gold");
     ellipse(300, 195,100,100);
+    //       x  y    w    h
     //rect( 50, 50, 250, 250);
     
     // Todo: Challenge 3 Traffic Light
