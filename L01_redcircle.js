@@ -1,11 +1,16 @@
 function setup(){
     createCanvas(600, 400);
-    background(220);
+    background("white");
 }
 
 function draw(){
     fill(255, 0, 0);
-    ellipse(300,200,200,200);
+    noStroke();
+    //       x   y   w   h
+    ellipse(300, 100,100,100);
+    fill("gold");
+    ellipse(300, 195,100,100);
+    //rect( 50, 50, 250, 250);
     
     // Todo: Challenge 3 Traffic Light
 }
