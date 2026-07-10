@@ -6,6 +6,7 @@ function setup() {
   background(220);
 }
 
+// forever loop
 function draw() {
   // Challenge 1: An eye using ellipse() function
 
