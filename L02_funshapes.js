@@ -3,8 +3,8 @@ Task 1: Add the setup() function
 */
 function setup() {
    //           w    h
-  createCanvas(400, 400);
-  background('skyblue');
+createCanvas(400, 400);
+background('skyblue');
 }
 
 // forever loop
