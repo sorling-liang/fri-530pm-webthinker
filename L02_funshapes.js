@@ -11,6 +11,7 @@ background('red');
 function draw() {
   // Challenge 1: An eye using ellipse() function
   fill("gold");
+  noStroke();
   ellipse(400, 200, 150, 80);
 
   // Challenge 2: A face using circle() function
