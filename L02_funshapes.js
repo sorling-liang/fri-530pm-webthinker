@@ -10,7 +10,8 @@ background('red');
 // forever loop
 function draw() {
   // Challenge 1: An eye using ellipse() function
-  fill("")
+  fill("gold");
+  ellipse()
 
   // Challenge 2: A face using circle() function
 
