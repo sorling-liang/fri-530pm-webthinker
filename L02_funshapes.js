@@ -10,7 +10,7 @@ background('red');
 // forever loop
 function draw() {
   // Challenge 1: An eye using ellipse() function
-  FileList("")
+  fill("")
 
   // Challenge 2: A face using circle() function
 
