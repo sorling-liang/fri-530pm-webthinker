@@ -11,7 +11,7 @@ function draw(){
     fill("gold");
     ellipse(300, 195,100,100);
     fill("green");
-    ellipse(300, 295,100,100);
+    ellipse(300, 290,100,100);
     //       x  y    w    h
     //rect( 50, 50, 250, 250);
     
