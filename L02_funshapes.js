@@ -4,7 +4,7 @@ Task 1: Add the setup() function
 function setup() {
    //           w    h
 createCanvas(800, 400);
-background('skyblue');
+background('red');
 }
 
 // forever loop
