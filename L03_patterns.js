@@ -9,10 +9,10 @@ function draw() {
   let diameter = 50;
   let circleY = 50;
 
-  circle(50,  50,  diameter);
-  circle(150, 50,  diameter);
-  circle(250, 50,  diameter);
-  circle(350, 50,  diameter);
+  circle(50,  circleY,  diameter);
+  circle(150, circleY,  diameter);
+  circle(250, circleY,  diameter);
+  circle(350, circleY,  diameter);
 
   // Task 1: Colour Gradient
 
