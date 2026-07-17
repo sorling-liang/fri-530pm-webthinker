@@ -15,7 +15,7 @@ function draw() {
   }
 
   // Task 1: Colour Gradient
-  let red = 0
+  let red = 0; // 0-255
 
   // Task 2: Colour Loop
 
