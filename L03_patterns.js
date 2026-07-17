@@ -18,7 +18,7 @@ function draw() {
   // let red = 0; // 0-255
   let count = 1;
   for ( let red = 0; red < 256; red += 35 ) {
-    fill(0, 0, red);
+    fill(red);
     circle(count*50,  circleY,  diameter);
     count = count + 1;
   }
