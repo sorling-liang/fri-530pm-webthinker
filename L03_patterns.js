@@ -13,7 +13,9 @@ function draw() {
     circle(count*50,  circleY,  diameter);
     circleY = circleY + 50;
   }
+
   // Task 1: Colour Gradient
+  let red = 0
 
   // Task 2: Colour Loop
 
