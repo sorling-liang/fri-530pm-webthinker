@@ -9,8 +9,8 @@ function draw() {
   let diameter = 50;
   let circleY = 50;
 
-  for( let count=1; count<6; ) {
-    circle(circleX,  circleY,  diameter);
+  for( let count=1; count<6; count++) {
+    circle(count*50,  circleY,  diameter);
   // circle(150, circleY,  diameter);
   // circle(250, circleY,  diameter);
   // circle(350, circleY,  diameter);
