@@ -19,7 +19,7 @@ function draw() {
   let count = 1;
   for ( let red = 0; red < 256; red++ ) {
     fill(red, 0, 0);
-    circle(count*50,  circleY,  diameter);
+    circle(count*50,  circleY,  15);
     count = count + 1;
   }
 
