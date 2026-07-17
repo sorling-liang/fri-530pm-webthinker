@@ -17,7 +17,7 @@ function draw() {
   // Task 1: Colour Gradient
   // let red = 0; // 0-255
   let count = 1;
-  for ( let red = 0; red < 256; red += 35 ) {
+  for ( let red = 0; red < 256; red = red + 35 ) {
     fill(red);
     circle(count*50,  circleY,  diameter);
     count = count + 1;
