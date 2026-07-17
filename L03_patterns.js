@@ -20,6 +20,7 @@ function draw() {
   for ( let red = 0; red < 256; red++ ) {
     fill(red, 0, 0);
     circle(count*50,  circleY,  diameter);
+    count = count + 1;
   }
 
   // Task 2: Colour Loop
