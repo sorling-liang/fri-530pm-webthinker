@@ -9,7 +9,7 @@ function draw() {
   let diameter = 50;
   let circleY = 50;
 
-  for( let circleX=50; circleX < 400; circle)
+  for( let circleX=50; circleX < 400; circleX)
   circle(50,  circleY,  diameter);
   circle(150, circleY,  diameter);
   circle(250, circleY,  diameter);
