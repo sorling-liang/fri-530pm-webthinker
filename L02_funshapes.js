@@ -9,7 +9,6 @@ background('red');
 
 // forever loop
 function draw() {
-  // stroke();
   // Challenge 1: An eye using ellipse() function
   fill("gold");
   noStroke(); // no outline
