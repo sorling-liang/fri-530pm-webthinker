@@ -11,6 +11,7 @@ function draw() {
 
   for( let count=1; count<6; count++) {
     circle(count*50,  circleY,  diameter);
+    circleY = circleY + 50;
   // circle(150, circleY,  diameter);
   // circle(250, circleY,  diameter);
   // circle(350, circleY,  diameter);
