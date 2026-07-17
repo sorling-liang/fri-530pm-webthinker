@@ -6,8 +6,10 @@ function setup() {
   
 function draw() {
   // Recap 1: Repeating Circles
-  
-  circle(50,50,50);
+  let diameter = 50;
+  let circleY = 50;
+
+  circle(50,50,diameter);
   circle(150,50,50);
   circle(250,50,50);
   circle(350,50,50);
