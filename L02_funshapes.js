@@ -12,7 +12,7 @@ function draw() {
   // Challenge 1: An eye using ellipse() function
   fill("gold");
   noStroke(); // no outline
-  ellipse(400, 200, 350, 300);
+  ellipse(400, 200, 100, 0);
 
   // Challenge 2: A face using circle() function
   fill("black");
