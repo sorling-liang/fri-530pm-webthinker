@@ -35,8 +35,9 @@ function setup() {
 // function mouseReleased() {
 //     shapeColor = "blue";
 // }
+// function mouseMoved() {
 
-function mouseMoved() {
+function mouseDragd() {
     //background("skyblue");
     fill(random(0,255),  random(0,255),   random(0,255));
     circle(mouseX, mouseY, size);
