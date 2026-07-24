@@ -14,7 +14,7 @@ function draw() {
     let ggColour = 0;
 
     for (let count = 0; count < 7; count++) {
-        fill(0, ggColour, 0);
+        fill(random(0,255));
         circle( xpos, ypos, 35);
         xpos += 50;
         ypos += 50;
