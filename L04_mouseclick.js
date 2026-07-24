@@ -5,7 +5,7 @@ let shapeColor = "blue";
 function setup() {
     createCanvas(600,600);
     background("skyblue");
-    noLoop(); // make draw() run once
+    //noLoop(); // make draw() run once
 }
 
 
