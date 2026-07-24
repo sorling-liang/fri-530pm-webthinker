@@ -14,5 +14,7 @@ function draw() {
     for (let count = 0; count < 6; count++) {
         fill(0, ggColour, 0);
         circle( xpos, ypos, 35);
+        xpos += 50;
+        ggColour += 50;
     }
 }
