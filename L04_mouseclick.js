@@ -39,5 +39,5 @@ function setup() {
 function mouseMoved() {
     background("skyblue");
     circle(mouseX, mouseY, size);
-    size += 5;
+    size += 0.5;
 }
