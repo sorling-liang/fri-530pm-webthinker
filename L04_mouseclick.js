@@ -1,6 +1,7 @@
 // write your codes here
 
 let shapeColor = "blue";
+let size = 35;
 
 function setup() {
     createCanvas(600,600);
