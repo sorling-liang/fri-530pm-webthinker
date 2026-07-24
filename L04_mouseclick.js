@@ -38,7 +38,7 @@ function setup() {
 
 function mouseMoved() {
     //background("skyblue");
-    fill(random(0,255),random(0,255),random(0,255));
+    fill(random(0,255),  random(0,255),   random(0,255));
     circle(mouseX, mouseY, size);
     //size += 0.5;
 }
