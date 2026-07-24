@@ -12,6 +12,6 @@ function draw() {
     let ypos = 0;
     let ggColour = 0;
     for (let count = 0; count < 6; count++) {
-
+        circle( xpos, ypos, 35);
     }
 }
