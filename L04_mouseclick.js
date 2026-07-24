@@ -8,8 +8,8 @@ function setup() {
 function draw() {
     // print(width);
     // print(height);
-    let xpos = 0;
-    let ypos = 0;
+    let xpos = 50;
+    let ypos = 50;
     let ggColour = 0;
     for (let count = 0; count < 6; count++) {
         fill(0, ggColour, 0);
