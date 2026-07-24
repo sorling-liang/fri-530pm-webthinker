@@ -4,14 +4,15 @@ function setup() {
     background("skyblue");
     //noLoop(); // make draw() run once
 }
+
+
+function draw() {
+    // print(width);
+    // print(height);
     let xpos = 50;
     let ypos = 50;
     let ggColour = 0;
     
-function draw() {
-    // print(width);
-    // print(height);
-
     for (let count = 0; count < 5; count++) {
         fill(0, ggColour, 0);
         circle( xpos, ypos, 35);
