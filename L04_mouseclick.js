@@ -25,3 +25,11 @@ function draw() {
         ggColour += 50;
     }
 }
+
+function mousePressed() {
+    s
+}
+
+function mouseReleased() {
+
+}
