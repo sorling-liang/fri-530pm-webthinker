@@ -9,8 +9,8 @@ function setup() {
     createCanvas(600, 600);
     background("skyblue");
     // noStroke();
-    xpos = width/2;
-    ypos = height/2;
+    xpos = width/2; // middle
+    ypos = height/2; // middle
 }
 
 
