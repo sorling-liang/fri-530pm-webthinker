@@ -8,6 +8,7 @@ function setup() {
     createCanvas(600, 600);
     background("skyblue");
     // noStroke();
+    xpos = width/2;
 }
 
 
@@ -19,7 +20,7 @@ function draw() {
     circle( xpos, height/2, size);
     // }
     if (keyCode === RIGHT_ARROW) {
-        x += 5;
+        xpos += 5;
     }
 }
 
