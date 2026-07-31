@@ -19,8 +19,14 @@ function draw() {
     // rect( width/2, height/2, size, size );
     fill(colour);
     // if (showCirle) {
-    circle( xpos, height/2, size);
+    circle( xpos, ypos, size);
     // }
+    if (keyIsDown(RIGHT_ARROW)) {
+        xpos += 1;
+    }
+    if (keyIsDown(LEFT_ARROW)) {
+        xpos -= 1;
+    }
     if (keyIsDown(RIGHT_ARROW)) {
         xpos += 1;
     }
