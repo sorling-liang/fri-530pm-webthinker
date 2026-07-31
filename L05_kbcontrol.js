@@ -20,9 +20,9 @@ function draw() {
 
 function keyPressed() {
     // size = 200;
-    // if (key === 'c') {
-    //     showCirle = !showCirle;
-    // }
+    if (key === 'c') {
+        showCirle = !showCirle;
+    }
     print(key);
     print(keyCode);
 
@@ -30,7 +30,10 @@ function keyPressed() {
         colour = "red";
         print("i was pressing UP arrow key");
     }
-    if (keyCode === DOWN_)
+    if (keyCode === DOWN_ARROW) {
+        colour = "black";
+    }
+
 }
 
 // function keyReleased() {
