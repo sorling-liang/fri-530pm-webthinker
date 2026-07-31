@@ -27,7 +27,7 @@ function keyPressed() {
     print(key);
     print(keyCode);
 
-    if (keyCode === UP_ARROW) {
+    if (keyCode === RIGHT_ARROW) {
         colour = "red";
         // print("i was pressing UP arrow key");
     }
