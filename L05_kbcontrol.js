@@ -20,10 +20,10 @@ function draw() {
     circle( xpos, height/2, size);
     // }
     if (keyIsDown(RIGHT_ARROW)) {
-        xpos += 5;
+        xpos += 1;
     }
     if (keyIsDown(LEFT_ARROW)) {
-        xpos -= 5;
+        xpos -= 1;
     }
 }
 
