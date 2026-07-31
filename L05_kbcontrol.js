@@ -2,6 +2,7 @@
 let size = 35;
 let showCirle = true;
 let colour = "white";
+let xpos = 0;
 
 function setup() {
     createCanvas(600, 600);
@@ -9,7 +10,6 @@ function setup() {
     // noStroke();
 }
 
-let xpos = width/2;
 
 function draw() {
     background("skyblue");
