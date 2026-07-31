@@ -7,9 +7,9 @@ function setup() {
     noStroke();
 }
 
-// function draw() {
-//     background("skyblue");
-// }
+function draw() {
+    background("skyblue");
+}
 
 // function mousePressed() {
 //     fill(random(0,255), random(0,255), 0);
