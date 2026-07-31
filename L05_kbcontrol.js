@@ -12,7 +12,7 @@ function draw() {
     background("skyblue");
     // rect( width/2, height/2, size, size );
     if (showCirle) {
-        
+        circle( width/2, height/2, size);
     }
 }
 
