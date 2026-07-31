@@ -9,7 +9,10 @@ function setup() {
 //     background("skyblue");
 // }
 
+function mousePressed() {
+    fi
+}
 function mouseDragged() {
-    
+    circle(mouseX, mouseY, size);
     size = size + 0.5;
 }
