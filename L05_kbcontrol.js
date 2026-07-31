@@ -10,7 +10,7 @@ function setup() {
 // }
 
 function mousePressed() {
-    fi
+    fill(random(0,255), random(0,255), 0);
 }
 function mouseDragged() {
     circle(mouseX, mouseY, size);
