@@ -19,6 +19,7 @@ function draw() {
     circle( xpos, height/2, size);
     // }
     if (keyCode === RIGHT_ARROW) {
+        x += 5;
     }
 }
 
