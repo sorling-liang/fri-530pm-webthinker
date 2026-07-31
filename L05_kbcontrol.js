@@ -4,7 +4,7 @@ let size = 50;
 function setup() {
     createCanvas(600, 600);
     background("skyblue");
-    noStroke();
+    // noStroke();
 }
 
 function draw() {
@@ -16,7 +16,9 @@ function keyPressed() {
     size = 200;
 }
 
-
+function keyReleased() {
+    size = 50;
+}
 // function mousePressed() {
 //     fill(random(0,255), random(0,255), 0);
 //     size = 5;
