@@ -1,6 +1,6 @@
 // write your codes here
 let size = 50;
-let showCirle = false;
+let showCirle = true;
 let colour = "white";
 
 function setup() {
@@ -12,6 +12,7 @@ function setup() {
 function draw() {
     background("skyblue");
     // rect( width/2, height/2, size, size );
+    fill
     if (showCirle) {
         circle( width/2, height/2, size);
     }
