@@ -19,8 +19,8 @@ function draw() {
     // if (showCirle) {
     circle( xpos, height/2, size);
     // }
-    if (keyCode === RIGHT_ARROW) {
-        xpos += 5;
+    if (keyIsDown(RIGHT_ARROW)) {
+        xpos += 1;
     }
 }
 
