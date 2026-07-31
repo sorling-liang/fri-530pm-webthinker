@@ -18,9 +18,11 @@ function draw() {
 
 function keyPressed() {
     // size = 200;
-    if (key === 'c') {
-        showCirle = !showCirle;
-    }
+    // if (key === 'c') {
+    //     showCirle = !showCirle;
+    // }
+    print(key);
+    print(keyCode);
 }
 
 // function keyReleased() {
