@@ -1,6 +1,6 @@
 // write your codes here
 let size = 50;
-let showCirle;
+let showCirle = false;
 
 function setup() {
     createCanvas(600, 600);
@@ -10,7 +10,10 @@ function setup() {
 
 function draw() {
     background("skyblue");
-    rect( width/2, height/2, size, size );
+    // rect( width/2, height/2, size, size );
+    if (showCirle) {
+        
+    }
 }
 
 function keyPressed() {
