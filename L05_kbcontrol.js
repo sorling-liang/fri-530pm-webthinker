@@ -21,7 +21,8 @@ function draw() {
 function keyPressed() {
     // size = 200;
     if (key === 'c') {
-        showCirle = !showCirle;
+        // showCirle = !showCirle;
+        colour = "white";
     }
     print(key);
     print(keyCode);
