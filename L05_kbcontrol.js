@@ -1,5 +1,5 @@
 // write your codes here
-let size = 5;
+let size = 50;
 
 function setup() {
     createCanvas(600, 600);
@@ -11,11 +11,11 @@ function setup() {
 //     background("skyblue");
 // }
 
-function mousePressed() {
-    fill(random(0,255), random(0,255), 0);
-    size = 5;
-}
-function mouseDragged() {
-    circle(mouseX, mouseY, size);
-    size = size + 0.5;
-}
+// function mousePressed() {
+//     fill(random(0,255), random(0,255), 0);
+//     size = 5;
+// }
+// function mouseDragged() {
+//     circle(mouseX, mouseY, size);
+//     size = size + 0.5;
+// }
