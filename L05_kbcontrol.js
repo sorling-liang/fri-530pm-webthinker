@@ -9,12 +9,14 @@ function setup() {
     // noStroke();
 }
 
+let xpos = width/2;
+
 function draw() {
     background("skyblue");
     // rect( width/2, height/2, size, size );
     fill(colour);
     // if (showCirle) {
-    circle( width/2, height/2, size);
+    circle( xpos, height/2, size);
     // }
     if (keyCode === RIGHT_ARROW) {
     }
