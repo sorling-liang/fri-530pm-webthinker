@@ -31,7 +31,7 @@ function draw() {
         ypos -= 1;
     }
     if (keyIsDown(DOWN_ARROW)) {
-        pos -= 1;
+        ypos += 1;
     }
 }
 
