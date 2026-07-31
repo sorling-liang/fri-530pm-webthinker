@@ -13,28 +13,30 @@ function draw() {
     background("skyblue");
     // rect( width/2, height/2, size, size );
     fill(colour);
-    if (showCirle) {
-        circle( width/2, height/2, size);
-    }
-}
-
-function keyPressed() {
-    // size = 200;
-    if (key === 'c') {
-        // showCirle = !showCirle;
-        colour = "white";
-    }
-    print(key);
-    print(keyCode);
-
+    // if (showCirle) {
+    circle( width/2, height/2, size);
+    // }
     if (keyCode === RIGHT_ARROW) {
-        colour = "red";
-        // print("i was pressing UP arrow key");
-    }
-    if (keyCode === DOWN_ARROW) {
-        colour = "black";
     }
 }
+
+// function keyPressed() {
+//     // size = 200;
+//     if (key === 'c') {
+//         // showCirle = !showCirle;
+//         colour = "white";
+//     }
+//     print(key);
+//     print(keyCode);
+
+//     if (keyCode === RIGHT_ARROW) {
+//         colour = "red";
+//         // print("i was pressing UP arrow key");
+//     }
+//     if (keyCode === DOWN_ARROW) {
+//         colour = "black";
+//     }
+// }
 
 // function keyReleased() {
 //     size = 50;
