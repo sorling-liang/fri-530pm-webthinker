@@ -12,6 +12,11 @@ function draw() {
     rect( width/2, height/2, size, size );
 }
 
+function keyPressed() {
+    size = 200;
+}
+
+
 // function mousePressed() {
 //     fill(random(0,255), random(0,255), 0);
 //     size = 5;
