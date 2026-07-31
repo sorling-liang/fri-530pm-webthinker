@@ -1,6 +1,7 @@
 // write your codes here
 let size = 50;
 let showCirle = false;
+let colour = "white";
 
 function setup() {
     createCanvas(600, 600);
