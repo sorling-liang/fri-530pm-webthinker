@@ -1,5 +1,6 @@
 // write your codes here
 let size = 50;
+let showCirle;
 
 function setup() {
     createCanvas(600, 600);
