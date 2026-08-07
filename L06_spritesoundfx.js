@@ -18,5 +18,9 @@ function setup() {
 function draw() {
     background("lightblue");
     //     x        y        w   h
-    rect(xpos, height/2, 50, 50);
+    rect(xpos, ypos, 50, 50);
+
+    if (keyIsDown(UP_ARROW)) {
+        
+    }
 }
