@@ -1,4 +1,7 @@
 // write your codes here
+
+let picoImg;
+
 function preload() {
 
 }
