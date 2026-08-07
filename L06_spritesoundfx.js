@@ -21,7 +21,7 @@ function setup() {
 }
 
 function draw() {
-    background("lightblue");
+    background("lightblue"); // erase
     image(picoImg, 0,0, 110, 133);
 
 }
