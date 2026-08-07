@@ -21,7 +21,7 @@ function draw() {
     fill("white");
     rect(width/2, height/2, 300,300); // border, the bigger square
     fill("black");
-    //     x        y        w   h
+    //     x     y    w   h
     rect(xpos, ypos, 50, 50);
 
     if (keyIsDown(UP_ARROW)) {
