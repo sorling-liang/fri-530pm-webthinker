@@ -3,7 +3,7 @@
 let picoImg;
 
 function preload() {
-    picoImg = loadImage();
+    picoImg = loadImage('assets/pico-a.png');
 }
 
 let xpos;
