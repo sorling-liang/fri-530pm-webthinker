@@ -17,7 +17,7 @@ function setup() {
     xpos = width/2;
     ypos = height/2;
 
-    noStroke();
+    //noStroke();
     image(picoImg, 0,0, 110, 133);
 }
 
