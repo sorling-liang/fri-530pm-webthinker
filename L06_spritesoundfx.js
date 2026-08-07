@@ -34,6 +34,7 @@ function draw() {
     }
     else if (keyIsDown(DOWN_ARROW)) {
         ypos = ypos +5;
+        bgM.stop()
     }
     else if (keyIsDown(LEFT_ARROW)) {
         xpos = xpos -5;
