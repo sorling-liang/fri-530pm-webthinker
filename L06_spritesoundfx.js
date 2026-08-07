@@ -25,16 +25,16 @@ function draw() {
     rect(xpos, ypos, 50, 50);
 
     if (keyIsDown(UP_ARROW)) {
-        ypos = ypos -10;
+        ypos = ypos -5;
     }
     else if (keyIsDown(DOWN_ARROW)) {
-        ypos = ypos +10;
+        ypos = ypos +5;
     }
     else if (keyIsDown(LEFT_ARROW)) {
-        xpos = xpos -10;
+        xpos = xpos -5;
     }
     else if (keyIsDown(RIGHT_ARROW)) {
-        xpos = xpos +10;
+        xpos = xpos +5;
     }
 
     xpos = constrain(xpos, 75, 325);
