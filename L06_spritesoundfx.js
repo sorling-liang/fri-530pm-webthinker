@@ -13,6 +13,8 @@ function setup() {
 
     xpos = width/2;
     ypos = height/2;
+
+    noStroke();
 }
 
 
