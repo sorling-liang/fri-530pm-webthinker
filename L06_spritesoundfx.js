@@ -47,7 +47,7 @@ function draw() {
 function keyPressed() {
     if (keyCode === 32) {
         // space key 
-        soundSFX.play()
+        soundSFX.play();
     }
 }
 
