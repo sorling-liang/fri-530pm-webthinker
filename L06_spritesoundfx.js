@@ -18,10 +18,11 @@ function setup() {
     ypos = height/2;
 
     //noStroke();
-    image(picoImg, 0,0, 110, 133);
 }
 
 function draw() {
+    background("lightblue");
+    image(picoImg, 0,0, 110, 133);
 
 }
 
