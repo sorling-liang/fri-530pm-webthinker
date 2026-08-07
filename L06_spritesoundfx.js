@@ -10,4 +10,5 @@ function setup() {
 
 function draw() {
     background("lightblue");
+    rect(0,0,50,50);
 }
