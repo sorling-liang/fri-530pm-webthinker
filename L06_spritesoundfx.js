@@ -10,7 +10,7 @@ function setup() {
     createCanvas(400, 400);
     background("lightblue");
     rectMode(CENTER);
-    
+
     xpos = width/2;
     ypos = height/2;
 }
@@ -19,7 +19,7 @@ function setup() {
 function draw() {
     background("lightblue");
     fill("white");
-    rect(width/2, height/2, 300,300);
+    rect(width/2, height/2, 300,300); // border, the bigger square
     fill("black");
     //     x        y        w   h
     rect(xpos, ypos, 50, 50);
