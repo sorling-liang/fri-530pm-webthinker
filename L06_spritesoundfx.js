@@ -18,7 +18,7 @@ function setup() {
 function draw() {
     background("lightblue");
     fill("white");
-    rect()
+    rect(width/2, height/2, )
     //     x        y        w   h
     rect(xpos, ypos, 50, 50);
 
