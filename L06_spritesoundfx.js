@@ -7,6 +7,7 @@ let bgM;
 function preload() {
     picoImg = loadImage('assets/pico-a.png');
     soundSFX = loadSound('assets/pop.mp3');
+    bgM = loadSound('assets/bossaNova.mp3');
 }
 
 let xpos;
