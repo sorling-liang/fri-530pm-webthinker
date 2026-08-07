@@ -9,7 +9,7 @@ let ypos;
 function setup() {
     createCanvas(400, 400);
     background("lightblue");
-    rectMode(CENTER);
+    rectMode(CENTER); // new!
 
     xpos = width/2;
     ypos = height/2;
