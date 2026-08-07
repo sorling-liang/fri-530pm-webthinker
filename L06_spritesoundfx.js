@@ -11,5 +11,6 @@ function setup() {
 
 function draw() {
     background("lightblue");
-    rect(width/2, height/2, 50,50);
+    //     x        y        w   h
+    rect(width/2, height/2, 50, 50);
 }
