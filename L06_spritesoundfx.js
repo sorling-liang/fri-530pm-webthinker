@@ -44,7 +44,12 @@ function draw() {
     ypos = constrain(ypos, 67, height-67);
 }
 
-
+function keyPressed() {
+    if (keyCode === 32) {
+        // space key 
+        soundSFX.play()
+    }
+}
 
 // function draw() {
 //     background("lightblue");
