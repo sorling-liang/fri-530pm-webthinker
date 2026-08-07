@@ -9,6 +9,7 @@ function setup() {
     rectMode(CENTER);
 }
 
+
 function draw() {
     background("lightblue");
     //     x        y        w   h
