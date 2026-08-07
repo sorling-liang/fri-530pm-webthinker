@@ -24,7 +24,10 @@ function draw() {
     background("lightblue"); // erase
     //             x      y    w   h
     image(picoImg, xpos, ypos, 110, 133);
-
+    if (keyIsDown(RIGHT_ARROW)) {
+        xpos = xpos+1;
+    }
+    
 }
 
 
