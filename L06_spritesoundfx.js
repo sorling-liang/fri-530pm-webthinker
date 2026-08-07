@@ -37,5 +37,5 @@ function draw() {
     }
 
     xpos = constrain(xpos, 100, 300);
-    ypos = constrain(ypos, 50, 300);
+    ypos = constrain(ypos, 100, 300);
 }
