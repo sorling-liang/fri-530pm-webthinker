@@ -4,7 +4,7 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(300, 300);
+    createCanvas(400, 400);
     background("lightblue");
     rectMode(CENTER);
 }
