@@ -25,8 +25,17 @@ function draw() {
     background("lightblue"); // erase
     //             x      y    w    h
     image(picoImg, xpos, ypos, 110, 133);
-    if (keyIsDown(RIGHT_ARROW)) {
-        xpos = xpos+1;
+    if (keyIsDown(UP_ARROW)) {
+        ypos = ypos -5;
+    }
+    else if (keyIsDown(DOWN_ARROW)) {
+        ypos = ypos +5;
+    }
+    else if (keyIsDown(LEFT_ARROW)) {
+        xpos = xpos -5;
+    }
+    else if (keyIsDown(RIGHT_ARROW)) {
+        xpos = xpos +5;
     }
     xpos = constrain(xpos, 0, width);
 }
