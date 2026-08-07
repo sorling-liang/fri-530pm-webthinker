@@ -6,9 +6,10 @@ function preload() {
 function setup() {
     createCanvas(300, 300);
     background("lightblue");
+    rectMode(CENTER);
 }
 
 function draw() {
     background("lightblue");
-    rect(0,0,50,50);
+    rect(width/2,0,50,50);
 }
