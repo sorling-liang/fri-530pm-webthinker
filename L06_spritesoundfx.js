@@ -31,7 +31,7 @@ function draw() {
     image(picoImg, xpos, ypos, 110, 133);
     if (keyIsDown(UP_ARROW)) {
         ypos = ypos -5;
-        bgM.loop();
+        bgM.stop();
     }
     else if (keyIsDown(DOWN_ARROW)) {
         ypos = ypos +5;
