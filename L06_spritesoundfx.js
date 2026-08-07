@@ -17,6 +17,7 @@ function setup() {
     xpos = width/2;
     ypos = height/2;
 
+    imageMode(CENTER);
     //noStroke();
 }
 
