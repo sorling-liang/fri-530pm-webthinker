@@ -10,6 +10,7 @@ function setup() {
     createCanvas(400, 400);
     background("lightblue");
     rectMode(CENTER);
+    
     xpos = width/2;
     ypos = height/2;
 }
