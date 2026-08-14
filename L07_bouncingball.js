@@ -58,6 +58,7 @@ function setup() {
     noStroke();
     createCanvas(600, 400);
     background("lightgray");
+    fill("red");
 
     ballX = 300;
     ballY = 200;
