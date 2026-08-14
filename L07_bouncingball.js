@@ -6,7 +6,7 @@ let pianoImg;
 let picoWidth;
 let sfx;
 function preload() {
-    pianoImg = loadImage("assets/images.png");
+    pianoImg = loadImage("assets/pico-a.png");
     sfx = loadSound("assets/pop.mp3");
 }
 
