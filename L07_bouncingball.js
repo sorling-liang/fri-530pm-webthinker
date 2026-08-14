@@ -11,7 +11,7 @@ function preload() {
 function setup() {
     createCanvas(500,500);
     background("black");
-    Image
+    image(pianoImg, 0,0, )
 }
 
 function draw() {
