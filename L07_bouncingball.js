@@ -9,7 +9,7 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(500,500);
+    createCanvas(600,600);
     background("black");
     imageMode(CENTER);
     image(pianoImg, width/2, height/2, 500, 500);
