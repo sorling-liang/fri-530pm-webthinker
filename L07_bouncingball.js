@@ -23,8 +23,11 @@ function draw() {
     background("lightgray");
     image(pianoImg, width/2, height/2, picoWidth, 133);
     if (keyIsDown(UP_ARROW)) {
-        pico
+        picoY -= 5;
     }
+    if (keyIsDown(UP_ARROW)) {
+        picoY -= 5;
+    }    
 }
 
 function keyPressed() {
