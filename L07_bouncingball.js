@@ -17,6 +17,7 @@ function setup() {
     background("black");
 
     imageMode(CENTER);
+    
     picoWidth = 100;
     picoX = width/2;
     picoY = height/2;
