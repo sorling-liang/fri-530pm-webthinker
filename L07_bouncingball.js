@@ -2,4 +2,10 @@
 // recap
 // then lesson 7
 
-function 
+function setup() {
+
+}
+
+function draw() {
+    
+}
