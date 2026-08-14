@@ -17,8 +17,8 @@ function setup() {
     background("black");
 
     imageMode(CENTER);
-    
-    picoWidth = 100;
+
+    picoWidth = 110;
     picoX = width/2;
     picoY = height/2;
 }
@@ -45,7 +45,7 @@ function draw() {
 
 function keyPressed() {
     if (keyCode === 32) {
-        picoWidth = 50;
+        picoWidth = 55;
         sfx.play();
     }
 }
