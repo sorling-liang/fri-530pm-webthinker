@@ -1,51 +1,51 @@
-// write your codes here
-// recap
-// then lesson 7
+// // write your codes here
+// // recap
+// // then lesson 7
 
-let pianoImg;
-let picoWidth;
-let picoX, picoY;
-let sfx;
+// let pianoImg;
+// let picoWidth;
+// let picoX, picoY;
+// let sfx;
 
-function preload() {
-    pianoImg = loadImage("assets/pico-a.png");
-    sfx = loadSound("assets/pop.mp3");
-}
+// function preload() {
+//     pianoImg = loadImage("assets/pico-a.png");
+//     sfx = loadSound("assets/pop.mp3");
+// }
 
-function setup() {
-    createCanvas(600,600);
-    background("black");
+// function setup() {
+//     createCanvas(600,600);
+//     background("black");
 
-    imageMode(CENTER);
+//     imageMode(CENTER);
 
-    picoWidth = 110;
-    picoX = width/2;
-    picoY = height/2;
-}
+//     picoWidth = 110;
+//     picoX = width/2;
+//     picoY = height/2;
+// }
 
-function draw() {
-    // erase everytime when this is called
-    background("lightgray");
-    image(pianoImg, picoX, picoY, picoWidth, 133);
+// function draw() {
+//     // erase everytime when this is called
+//     background("lightgray");
+//     image(pianoImg, picoX, picoY, picoWidth, 133);
 
-    if (keyIsDown(RIGHT_ARROW)) {
-        picoWidth = 110;
-        picoX += 5;
-    }
-    if (keyIsDown(LEFT_ARROW)) {
-        picoX -= 5;
-    }
-    if (keyIsDown(UP_ARROW)) {
-        picoY -= 5;
-    }
-    if (keyIsDown(DOWN_ARROW)) {
-        picoY += 5;
-    }    
-}
+//     if (keyIsDown(RIGHT_ARROW)) {
+//         picoWidth = 110;
+//         picoX += 5;
+//     }
+//     if (keyIsDown(LEFT_ARROW)) {
+//         picoX -= 5;
+//     }
+//     if (keyIsDown(UP_ARROW)) {
+//         picoY -= 5;
+//     }
+//     if (keyIsDown(DOWN_ARROW)) {
+//         picoY += 5;
+//     }    
+// }
 
-function keyPressed() {
-    if (keyCode === 32) {
-        picoWidth = 55;
-        sfx.play();
-    }
-}
+// function keyPressed() {
+//     if (keyCode === 32) {
+//         picoWidth = 55;
+//         sfx.play();
+//     }
+// }
