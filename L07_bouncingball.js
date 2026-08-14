@@ -75,6 +75,7 @@ function draw() {
 
     if (ballX < 0+15) {
         ballSpeedX = -1 * ballSpeedX;
+        fill( R, G, B, )
     }
     if (ballX > width-15) {
         ballSpeedX = -1 * ballSpeedX;
