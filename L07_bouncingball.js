@@ -5,7 +5,7 @@
 let pianoImg;
 
 function preload() {
-    pianoImg = loadImage("assets/piano.png")
+    pianoImg = loadImage("assets/images.png");
 }
 
 function setup() {
