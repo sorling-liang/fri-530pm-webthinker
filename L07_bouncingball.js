@@ -51,4 +51,4 @@
 // }
 
 let ballX, ballY;
-let 
+let ballSize;
