@@ -6,6 +6,7 @@ let pianoImg;
 let picoWidth;
 let picoX, picoY;
 let sfx;
+
 function preload() {
     pianoImg = loadImage("assets/pico-a.png");
     sfx = loadSound("assets/pop.mp3");
@@ -14,7 +15,7 @@ function preload() {
 function setup() {
     createCanvas(600,600);
     background("black");
-    
+
     imageMode(CENTER);
     picoWidth = 100;
     picoX = width/2;
