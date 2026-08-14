@@ -2,6 +2,8 @@
 // recap
 // then lesson 7
 
+let pianoImg;
+
 function preload() {
 
 }
