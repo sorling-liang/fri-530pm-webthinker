@@ -6,6 +6,7 @@ let pianoImg;
 let sfx;
 function preload() {
     pianoImg = loadImage("assets/images.png");
+    sfx = loadSound("assets/pop.mp3");
 }
 
 function setup() {
