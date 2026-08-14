@@ -80,6 +80,6 @@ function draw() {
     }
 
     if (ballY < 0) {
-        
+        ballSpeedY = -1 * ballSpeedY
     }
 }
