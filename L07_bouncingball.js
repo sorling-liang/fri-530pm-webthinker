@@ -19,3 +19,7 @@ function draw() {
     background("black");
     image(pianoImg, width/2, height/2, 500, 500);
 }
+
+function keyPressed() {
+    picoW
+}
