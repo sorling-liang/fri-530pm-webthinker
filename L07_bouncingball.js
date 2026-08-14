@@ -20,7 +20,10 @@ function setup() {
 function draw() {
     // erase everytime when this is called
     background("lightgray");
-    image(pianoImg, width/2, height/2, picoWidth, 100);
+    image(pianoImg, width/2, height/2, picoWidth, 133);
+    if (keyIsDown(UP_ARROW)) {
+        
+    }
 }
 
 function keyPressed() {
