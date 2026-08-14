@@ -24,8 +24,8 @@ function draw() {
     // erase everytime when this is called
     background("lightgray");
     image(pianoImg, picoX, picoY, picoWidth, 133);
-    if (keyIsDown(UP_ARROW)) {
-        picoY -= 5;
+    if (keyIsDown(RIGHT_ARROW)) {
+        picoX -= 5;
     }
     if (keyIsDown(UP_ARROW)) {
         picoY -= 5;
