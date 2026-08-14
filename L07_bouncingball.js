@@ -3,6 +3,7 @@
 // then lesson 7
 
 let pianoImg;
+let picoWidth;
 let sfx;
 function preload() {
     pianoImg = loadImage("assets/images.png");
@@ -13,6 +14,7 @@ function setup() {
     createCanvas(600,600);
     background("black");
     imageMode(CENTER);
+    picoWidth = 100;
 }
 
 function draw() {
