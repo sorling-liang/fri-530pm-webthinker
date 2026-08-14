@@ -8,5 +8,6 @@ function setup() {
 }
 
 function draw() {
-    //background("black");
+    // erase everytime when this is called
+    background("black");
 }
