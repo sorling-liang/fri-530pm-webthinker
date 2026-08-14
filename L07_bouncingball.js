@@ -16,12 +16,13 @@ function setup() {
     background("black");
     imageMode(CENTER);
     picoWidth = 100;
+    pic
 }
 
 function draw() {
     // erase everytime when this is called
     background("lightgray");
-    image(pianoImg, width/2, picoY, picoWidth, 133);
+    image(pianoImg, picoX, picoY, picoWidth, 133);
     if (keyIsDown(UP_ARROW)) {
         picoY -= 5;
     }
