@@ -14,6 +14,7 @@ function preload() {
 function setup() {
     createCanvas(600,600);
     background("black");
+    
     imageMode(CENTER);
     picoWidth = 100;
     picoX = width/2;
@@ -24,6 +25,7 @@ function draw() {
     // erase everytime when this is called
     background("lightgray");
     image(pianoImg, picoX, picoY, picoWidth, 133);
+
     if (keyIsDown(RIGHT_ARROW)) {
         picoWidth = 100;
         picoX += 5;
