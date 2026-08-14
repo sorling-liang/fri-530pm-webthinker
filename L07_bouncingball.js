@@ -50,3 +50,5 @@
 //     }
 // }
 
+let ballX, ballY;
+let 
