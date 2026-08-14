@@ -21,5 +21,6 @@ function draw() {
 }
 
 function keyPressed() {
-    picoWidth = 
+    if (keyCode ==)
+    picoWidth = 50;
 }
