@@ -12,7 +12,7 @@ function setup() {
     createCanvas(500,500);
     background("black");
     imageMode(CENTER);
-    image(pianoImg, 0,0, 500, 500);
+    image(pianoImg, width/2, height/2, 500, 500);
 }
 
 function draw() {
