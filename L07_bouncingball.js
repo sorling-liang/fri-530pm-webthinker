@@ -25,6 +25,9 @@ function draw() {
     background("lightgray");
     image(pianoImg, picoX, picoY, picoWidth, 133);
     if (keyIsDown(RIGHT_ARROW)) {
+        picoX += 5;
+    }
+    if (keyIsDown(LEFT_ARROW)) {
         picoX -= 5;
     }
     if (keyIsDown(UP_ARROW)) {
