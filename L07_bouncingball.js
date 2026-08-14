@@ -59,5 +59,10 @@ function setup() {
     ballX = 300;
     ballY = 200;
     ballSize = 30;
-    
+    ballSpeedX = 2;
+    ballSpeedY = 2;
+}
+
+function draw() {
+    background(200);
 }
