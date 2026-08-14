@@ -16,5 +16,5 @@ function setup() {
 
 function draw() {
     // erase everytime when this is called
-    background("black");
+    //background("black");
 }
