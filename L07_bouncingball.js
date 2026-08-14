@@ -74,11 +74,11 @@ function draw() {
     ballY += ballSpeedY;
 
     if (ballX < 0+15) {
-        ballSpeedX = -1 * ballSpeedX;
+        ballSpeedX = -ballSpeedX;
         fill( random(0,255), random(0,255), 0 );
     }
     if (ballX > width-15) {
-        ballSpeedX = -1 * ballSpeedX;
+        ballSpeedX = -ballSpeedX;
         fill( random(0,255), random(0,255), 0 );
     }
 
