@@ -21,5 +21,5 @@ function draw() {
 }
 
 function keyPressed() {
-    picoW
+    picoWidth = 
 }
