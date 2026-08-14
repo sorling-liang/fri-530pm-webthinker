@@ -19,7 +19,7 @@ function setup() {
 
 function draw() {
     // erase everytime when this is called
-    background("black");
+    background("lightgray");
     image(pianoImg, width/2, height/2, picoWidth, 100);
 }
 
