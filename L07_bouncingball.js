@@ -29,7 +29,7 @@ function draw() {
     image(pianoImg, picoX, picoY, picoWidth, 133);
 
     if (keyIsDown(RIGHT_ARROW)) {
-        picoWidth = 100;
+        picoWidth = 110;
         picoX += 5;
     }
     if (keyIsDown(LEFT_ARROW)) {
