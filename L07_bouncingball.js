@@ -4,6 +4,7 @@
 
 let pianoImg;
 let picoWidth;
+let picoX, picoY;
 let sfx;
 function preload() {
     pianoImg = loadImage("assets/pico-a.png");
@@ -22,7 +23,7 @@ function draw() {
     background("lightgray");
     image(pianoImg, width/2, height/2, picoWidth, 133);
     if (keyIsDown(UP_ARROW)) {
-        
+        pico
     }
 }
 
