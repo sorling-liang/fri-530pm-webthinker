@@ -63,7 +63,7 @@ function setup() {
     ballY = 200;
     ballSize = 30;
     ballSpeedX = 2;
-    ballSpeedY = 2;
+    ballSpeedY = 3;
 }
 
 function draw() {
@@ -71,4 +71,6 @@ function draw() {
     circle(ballX, ballY, ballSize);
     ballX += ballSpeedX;
     ballY += ballSpeedY;
+
+    if (ball)
 }
