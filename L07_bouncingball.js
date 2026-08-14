@@ -3,7 +3,7 @@
 // then lesson 7
 
 let pianoImg;
-
+let sfx;
 function preload() {
     pianoImg = loadImage("assets/images.png");
 }
@@ -21,6 +21,8 @@ function draw() {
 }
 
 function keyPressed() {
-    if (keyCode ==)
-    picoWidth = 50;
+    if (keyCode === 32) {
+        picoWidth = 50;
+        sfx.play();
+    }
 }
