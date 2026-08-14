@@ -21,12 +21,12 @@ function setup() {
 function draw() {
     // erase everytime when this is called
     background("lightgray");
-    image(pianoImg, width/2, height/2, picoWidth, 133);
+    image(pianoImg, width/2, picoY, picoWidth, 133);
     if (keyIsDown(UP_ARROW)) {
         picoY -= 5;
     }
-    if (keyIsDown(UP_ARROW)) {
-        picoY -= 5;
+    if (keyIsDown(DOWN_ARROW)) {
+        picoY += 5;
     }    
 }
 
