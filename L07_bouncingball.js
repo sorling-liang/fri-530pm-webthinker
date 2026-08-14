@@ -1,6 +1,6 @@
-// // write your codes here
-// // recap
-// // then lesson 7
+// write your codes here
+// recap
+// then lesson 7
 
 // let pianoImg;
 // let picoWidth;
