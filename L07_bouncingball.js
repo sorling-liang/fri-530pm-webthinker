@@ -12,10 +12,10 @@ function setup() {
     createCanvas(600,600);
     background("black");
     imageMode(CENTER);
-    image(pianoImg, width/2, height/2, 500, 500);
 }
 
 function draw() {
     // erase everytime when this is called
     background("black");
+    image(pianoImg, width/2, height/2, 500, 500);
 }
