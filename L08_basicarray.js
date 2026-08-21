@@ -9,6 +9,7 @@ function setup() {
     let ypos = 50;
     let foodList = ["burger", "tacos", "ice cream"];
     for (let count=0; count < foodList.length; count++) {
+        let running = count+1;
         print( foodList[count] ); // debugging in js console
         //    what text                        x   y
         text( foodList[count] + " x" + width, 50, ypos ); // show on canvas
