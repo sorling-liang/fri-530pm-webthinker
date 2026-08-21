@@ -10,7 +10,7 @@ function setup() {
     let foodList = ["burger", "tacos", "ice cream"];
     for (let count=0; count < foodList.length; count++) {
         print( foodList[count] ); // debugging in js console
-        //    what text                x   y
+        //    what text                        x   y
         text( foodList[count] + " x" + width, 50, ypos ); // show on canvas
         ypos = ypos + 50;
     }
