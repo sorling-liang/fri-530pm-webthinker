@@ -27,8 +27,11 @@ function setup() {
 }
 
 function draw() {
-    bac
+    background("black");
+    fill("yellow");
+
     ypos = scrollingY;
+    for (let count=0; count<)
 
     scrollingY -= 0.6;
 }
