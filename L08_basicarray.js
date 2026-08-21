@@ -11,7 +11,7 @@ function draw() {
     //text("hello class", 10, 200);
     let ypos = 50;
     let foodList = ["burger", "tacos", "ice cream", "fried chicken"];
-    for (let count=0; count<5; count++) {
+    for (let count=0; count < foodList.length; count++) {
         //print( foodList[0] );
         text( foodList[count], 50, ypos);
         ypos = ypos + 50;
