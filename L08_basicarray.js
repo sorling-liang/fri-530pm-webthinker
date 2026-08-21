@@ -6,6 +6,7 @@ function setup() {
     background("black");
     fill("yellow");
 
+    // task 2
     // textSize(24);
     // textAlign(CENTER, CENTER);
     // //text("hello class", 10, 200);
