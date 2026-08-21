@@ -5,7 +5,7 @@ function setup() {
     fill("yellow");
 
     textSize(24);
-    textAlign(LEFT, TOP);
+    textAlign(CENTER, CENTER);
     //text("hello class", 10, 200);
     let ypos = 50;
     let foodList = ["burger", "tacos", "ice cream"];
