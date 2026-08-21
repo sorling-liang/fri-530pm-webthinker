@@ -23,10 +23,11 @@ function setup() {
     createCanvas(400,600);
     textSize(36);
     textAlign(CENTER, CENTER);
-    sc
+    scrollingY = height;
 }
 
 function draw() {
+    bac
     ypos = scrollingY;
 
     scrollingY -= 0.6;
