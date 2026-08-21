@@ -9,9 +9,9 @@ function setup() {
     let ypos = 50;
     let foodList = ["burger", "tacos", "ice cream"];
     for (let count=0; count < foodList.length; count++) {
-        print( foodList[count] );
+        print( foodList[count] ); 
         //    what text        x   y
-        text( foodList[count], 50, ypos );
+        text( foodList[count], 50, ypos ); // show on canvas
         ypos = ypos + 50;
     }
 }
