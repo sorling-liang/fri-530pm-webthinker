@@ -10,5 +10,5 @@ function draw() {
     textSize(68);
     text("hello class", 10, 200);
 
-    let food
+    let foodList = ["burger", ""]
 }
