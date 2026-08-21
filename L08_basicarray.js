@@ -10,7 +10,7 @@ function draw() {
     textSize(38);
     //text("hello class", 10, 200);
     let ypos = 50;
-    let foodList = ["burger", "tacos", "ice cream", "fried chicken"];
+    let foodList = ["burger", "tacos", "ice cream", "fried chicken", "chicken rice"];
     for (let count=0; count < foodList.length; count++) {
         //print( foodList[0] );
         text( foodList[count], 50, ypos);
