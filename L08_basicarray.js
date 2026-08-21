@@ -6,6 +6,6 @@ function setup() {
 function draw() {
     background("black");
     fill("yellow");
-    textSize(32);
-    text("hello class", 0, 200);
+    textSize(68);
+    text("hello class", 10, 200);
 }
