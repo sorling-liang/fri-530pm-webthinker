@@ -12,9 +12,8 @@ let storyText = [
 
 let ypos;
 let scrollingY;
-
+l
 function preload() {
-
 
 }
 
