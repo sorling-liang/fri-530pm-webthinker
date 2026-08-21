@@ -2,7 +2,9 @@
 // 3 functions
 
 let storyText = [
-    "A long long time ago"
+    "A long long time ago",
+    "in the galaxy far far away...",
+    "THE BEGINN"
 ];
 
 function preload() {
