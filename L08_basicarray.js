@@ -7,7 +7,7 @@ function setup() {
     textSize(38);
     //text("hello class", 10, 200);
     let ypos = 50;
-    let foodList = ["burger", "tacos", "ice cream", "fried chicken", "chicken rice"];
+    let foodList = ["burger", "tacos", "ice cream"];
     for (let count=0; count < foodList.length; count++) {
         print( foodList[0] );
         //    what text        x   y
