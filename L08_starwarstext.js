@@ -11,7 +11,7 @@ let storyText = [
 ];
 
 let ypos;
-let scrolling;
+let scrollingY;
 
 function preload() {
 
@@ -23,5 +23,5 @@ function setup() {
 }
 
 function draw() {
-    
+    scrollingY -= 0.6;
 }
