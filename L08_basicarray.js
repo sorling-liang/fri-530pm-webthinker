@@ -4,7 +4,7 @@ function setup() {
     background("black");
     fill("yellow");
 
-    textSize(38);
+    textSize(24);
     textAlign(RIGHT, TOP);
     //text("hello class", 10, 200);
     let ypos = 50;
