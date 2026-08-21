@@ -21,7 +21,7 @@ function preload() {
 function setup() {
     //bgm.loop();
     createCanvas(400,600);
-    textSize(36);
+    textSize(18);
     textAlign(CENTER, CENTER);
     scrollingY = height;
 }
@@ -37,4 +37,8 @@ function draw() {
     }
 
     scrollingY -= 0.6;
+
+    if (scrollingY < 0) {
+        scrol
+    }
 }
