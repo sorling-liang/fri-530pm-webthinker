@@ -4,7 +4,9 @@
 let storyText = [
     "A long long time ago",
     "in the galaxy far far away...",
-    "THE BEGINN"
+    "",
+    "THE BEGINNING",
+    "",
 ];
 
 function preload() {
