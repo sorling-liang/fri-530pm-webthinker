@@ -7,8 +7,11 @@ let storyText = [
     "",
     "THE BEGINNING",
     "A group of learners begin",
-    "",
+    "their journey"
 ];
+
+let ypos;
+let scrolling;
 
 function preload() {
 
@@ -20,5 +23,5 @@ function setup() {
 }
 
 function draw() {
-
+    
 }
