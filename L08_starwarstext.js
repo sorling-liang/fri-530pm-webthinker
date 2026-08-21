@@ -26,6 +26,6 @@ function setup() {
 }
 
 function draw() {
-    ypos = s
+    ypos = scro
     scrollingY -= 0.6;
 }
