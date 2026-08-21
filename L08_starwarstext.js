@@ -20,9 +20,12 @@ function preload() {
 
 function setup() {
     //bgm.loop();
-    createCanvas(40)
+    createCanvas(400,600);
+    textSize(36);
+    textAlign(CENTER, CENTER);
 }
 
 function draw() {
+    ypos = s
     scrollingY -= 0.6;
 }
