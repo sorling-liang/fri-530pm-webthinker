@@ -10,5 +10,8 @@ function draw() {
     textSize(68);
     text("hello class", 10, 200);
 
-    let foodList = ["burger", ""]
+    let foodList = ["burger", "tacos", "ice cream"];
+    for (let count=0; count<4; count++) {
+        
+    }
 }
