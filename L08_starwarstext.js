@@ -12,9 +12,10 @@ let storyText = [
 
 let ypos;
 let scrollingY;
-l
-function preload() {
+let bgm;
 
+function preload() {
+    bgm = loadSound("assets/star_wars_theme_8_bit.mp3");
 }
 
 function setup() {
