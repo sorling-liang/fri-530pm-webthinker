@@ -6,7 +6,9 @@ function setup() {
 function draw() {
     background("black");
     fill("yellow");
-    
+
     textSize(68);
     text("hello class", 10, 200);
+
+    let food
 }
