@@ -5,6 +5,7 @@ function setup() {
     fill("yellow");
 
     textSize(38);
+    textAlign(RIGHT, TOP);
     //text("hello class", 10, 200);
     let ypos = 50;
     let foodList = ["burger", "tacos", "ice cream"];
@@ -12,7 +13,7 @@ function setup() {
         let running = count+1;
         print( foodList[count] ); // debugging in js console
         //    what text                        x   y
-        text( running + "." + foodList[count] + " x" + width, 50, ypos ); // show on canvas
+        text( running + "." + foodList[count] + " x" + width, width/2, ypos ); // show on canvas
         ypos = ypos + 50;
     }
 }
