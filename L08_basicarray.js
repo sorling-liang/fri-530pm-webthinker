@@ -14,6 +14,6 @@ function draw() {
     for (let count=0; count<4; count++) {
         print( foodList[0] );
         text( foodList[0], 50, ypos);
-        
+        ypos = ypos + 50;
     }
 }
