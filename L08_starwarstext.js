@@ -39,6 +39,6 @@ function draw() {
     scrollingY -= 0.6;
 
     if (scrollingY < 0) {
-        scrol
+        scrollingY = height; // start from the bottom
     }
 }
