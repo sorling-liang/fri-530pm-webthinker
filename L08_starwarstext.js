@@ -19,7 +19,7 @@ function preload() {
 }
 
 function setup() {
-
+    bgm.loop();
 }
 
 function draw() {
