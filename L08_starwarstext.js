@@ -6,6 +6,7 @@ let storyText = [
     "in the galaxy far far away...",
     "",
     "THE BEGINNING",
+    "A group of learners begin",
     "",
 ];
 
