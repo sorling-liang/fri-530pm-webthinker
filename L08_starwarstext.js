@@ -19,7 +19,8 @@ function preload() {
 }
 
 function setup() {
-    bgm.loop();
+    //bgm.loop();
+    createCanvas(40)
 }
 
 function draw() {
