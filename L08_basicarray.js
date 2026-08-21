@@ -12,7 +12,7 @@ function setup() {
     for (let count=0; count < foodList.length; count++) {
         let running = count+1;
         print( foodList[count] ); // debugging in js console
-        //    what text                        x   y
+        //    what text                                          x        y
         text( running + ". " + foodList[count] + " x" + width, width/2, ypos ); // show on canvas
         ypos = ypos - 50;
     }
