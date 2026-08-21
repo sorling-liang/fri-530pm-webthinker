@@ -1,4 +1,6 @@
 // write your codes here
+let scrollingY = 0;
+
 function setup() {
     createCanvas(400,600);
     background("black");
@@ -19,5 +21,5 @@ function setup() {
 }
 
 function draw() {
-    
+
 }
