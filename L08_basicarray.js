@@ -9,7 +9,7 @@ function setup() {
     let ypos = 50;
     let foodList = ["burger", "tacos", "ice cream"];
     for (let count=0; count < foodList.length; count++) {
-        print( foodList[0] );
+        print( foodList[count] );
         //    what text        x   y
         text( foodList[count], 50, ypos );
         ypos = ypos + 50;
