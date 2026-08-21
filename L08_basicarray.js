@@ -7,5 +7,5 @@ function draw() {
     background("black");
     fill("yellow");
     textSize(32);
-    text("hello clas")
+    text("hello class", 0, 200);
 }
