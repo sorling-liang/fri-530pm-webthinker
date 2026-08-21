@@ -12,7 +12,7 @@ function draw() {
     let ypos = 50;
     let foodList = ["burger", "tacos", "ice cream"];
     for (let count=0; count<3; count++) {
-        print( foodList[0] );
+        //print( foodList[0] );
         text( foodList[0], 50, ypos);
         ypos = ypos + 50;
     }
