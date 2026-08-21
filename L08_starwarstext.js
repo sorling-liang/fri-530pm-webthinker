@@ -32,7 +32,7 @@ function draw() {
 
     ypos = scrollingY;
     for (let count=0; count<storyText.length; count++) {
-        text(s)
+        text(storyText[count], width/2, ypos);
     }
 
     scrollingY -= 0.6;
