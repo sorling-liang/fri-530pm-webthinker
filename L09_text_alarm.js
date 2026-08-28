@@ -14,8 +14,9 @@ function draw() {
     background(200);
 }
 
+let x = 50;
 function drawCircle() {
-    circle()
+    circle(x, 50, 35);
 }
 
 // // task 1
