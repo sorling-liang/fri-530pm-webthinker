@@ -9,9 +9,6 @@ function setup() {
     xpos = 50;
     ypos = 50;
 }
-
-
-
 function draw() {
     // fill("yellow");
     // triangle(50,100,  100,100,   75,50);
