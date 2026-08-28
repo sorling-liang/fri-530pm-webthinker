@@ -6,10 +6,12 @@ let intervalObject;
 function setup() {
     createCanvas(400,400);
     background(200);
+
+    intervalObject 
 }
 
 function draw() {
-    background(255);
+    background(200);
 }
 
 // // task 1
