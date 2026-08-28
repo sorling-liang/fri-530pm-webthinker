@@ -8,7 +8,7 @@ function setup() {
     xpos = 0;
     ypos = 0;
 
-    for (let count=0; count<7; count++) {
+    for (let count=0; count<6; count++) {
         fill( myfill );
         rect(xpos, ypos, 50,50);
         xpos = xpos+50;
