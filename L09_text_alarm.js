@@ -6,9 +6,12 @@ function setup() {
     createCanvas(500,500);
     textAlign(CENTER, CENTER);
     textSize(48);
+    xpos = width/2;
+    speed = 2;
 }
 
 function draw() {
     background("lightgray");
     text("Bounce!", xpos, height/2);
+    xpos 
 }
