@@ -12,6 +12,7 @@ function setup() {
 
 // forever loop
 function draw() {
+    background("skyblue");
     let xhour = nf( hour(), 2 );
     let xminute = nf( minute(), 2 );
     let xsecond = nf( second(), 2 );
