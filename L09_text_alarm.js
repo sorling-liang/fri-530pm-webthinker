@@ -6,6 +6,8 @@ function setup() {
     createCanvas(400, 200);
     // bg colour is skyblue
     background("skyblue");
+    textSize(32);
+    textAlign(CENTER, CENTER);
 }
 
 function draw() {
