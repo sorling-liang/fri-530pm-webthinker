@@ -13,8 +13,8 @@ function setup() {
 // forever loop
 function draw() {
     let hour = nf( hour(), 2 );
-    let minute;
-    let second;
+    let minute = nf( minute(), 2 );
+    let second = nf( second(), 2 );
     let timeString = "fake clock";
 
     text(timeString, width/2, height/2);
