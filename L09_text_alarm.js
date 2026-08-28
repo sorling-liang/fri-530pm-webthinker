@@ -16,6 +16,7 @@ function draw() {
 
 let x = 50;
 function drawCircle() {
+    background(200);
     circle(x, 50, 35);
     x = x + 10;
     if (x > width) {
