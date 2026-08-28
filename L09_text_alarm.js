@@ -11,9 +11,9 @@ function setup() {
 }
 
 function draw() {
-        background(200);
-
+    //background(200);
 }
+
 let x = 50;
 function drawCircle() {
     background(200);
