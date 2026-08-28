@@ -24,7 +24,7 @@ function drawCircle() {
 }
 
 function mousePressed() {
-    
+    clearInterval(intervalObject);
 }
 // // task 1
 // function setup() {
