@@ -7,11 +7,11 @@ function setup() {
     createCanvas(400,400);
     background(200);
 
-    intervalObject = createInterval(drawCircle, 1000); // 1000ms = 1 second
+    intervalObject = setInterval(drawCircle, 1000); // 1000ms = 1 second
 }
 
 function draw() {
-    background(200);
+    //background(200);
 }
 
 let x = 50;
