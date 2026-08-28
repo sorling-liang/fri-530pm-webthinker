@@ -13,7 +13,7 @@ function setup() {
         rect(xpos, ypos, 50,50);
         xpos = xpos+50;
         ypos = ypos+50;
-        myfill = myfill + 55;
+        myfill = myfill + 50;
     }
 }
 
