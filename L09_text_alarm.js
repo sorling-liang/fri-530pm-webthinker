@@ -11,14 +11,14 @@ function setup() {
 }
 
 function draw() {
-    //background(200);
+    background(200);
 }
 
 let x = 50;
 function drawCircle() {
     background(200);
     circle(x, 50, 35);
-    x = x + 5;
+    x = x + 10;
     if (x > width) {
         x = 0;
     }
