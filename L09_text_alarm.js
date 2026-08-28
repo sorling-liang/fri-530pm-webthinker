@@ -10,6 +10,7 @@ function setup() {
     textAlign(CENTER, CENTER);
 }
 
+// forever loop
 function draw() {
 
 }
