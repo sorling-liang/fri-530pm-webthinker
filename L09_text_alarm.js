@@ -1,6 +1,7 @@
 // write your codes here
 
-.
+// countdown
+function setup()
 
 // // task 1
 // function setup() {
