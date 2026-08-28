@@ -11,7 +11,7 @@ function setup() {
 }
 
 function draw() {
-    background("lightgray");
+    //background("lightgray");
     text("Bounce!", xpos, height/2);
     xpos = xpos + speed;
 
