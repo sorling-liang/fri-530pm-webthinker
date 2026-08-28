@@ -4,6 +4,7 @@ let speed;
 
 function setup() {
     createCanvas(500,500);
+    background("lightgray");
     textAlign(CENTER, CENTER);
     textSize(48);
     xpos = width/2;
@@ -11,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-    //background("lightgray");
+    background("lightgray");
     text("Bounce!", xpos, height/2);
     xpos = xpos + speed;
 
