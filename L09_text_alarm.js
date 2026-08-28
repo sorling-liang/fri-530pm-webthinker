@@ -17,6 +17,10 @@ function draw() {
 let x = 50;
 function drawCircle() {
     circle(x, 50, 35);
+    x = x + 10;
+    if (x > width) {
+        x = 0;
+    }
 }
 
 // // task 1
