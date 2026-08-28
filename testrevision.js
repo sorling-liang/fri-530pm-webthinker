@@ -5,8 +5,8 @@ function setup() {
     fill( myfill );
 
     for (let count=0; count<7; count++) {
-    rect(0,0,50,50);
-    myfill = myfill + 35;
+        rect(0,0,50,50);
+        myfill = myfill + 35;
     }
 }
 
