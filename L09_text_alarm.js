@@ -1,26 +1,28 @@
 // write your codes here
 
-// task 1
-function setup() {
-    // give me a canvas of size: 400 by 200
-    createCanvas(400, 200);
-    // bg colour is skyblue
-    background("skyblue");
-    textSize(32);
-    textAlign(CENTER, CENTER);
-}
+.
 
-// forever loop
-function draw() {
-    background("skyblue"); // erase
+// // task 1
+// function setup() {
+//     // give me a canvas of size: 400 by 200
+//     createCanvas(400, 200);
+//     // bg colour is skyblue
+//     background("skyblue");
+//     textSize(32);
+//     textAlign(CENTER, CENTER);
+// }
 
-    let xhour = nf( hour(), 2 ); // 24 hour
-    let xminute = nf( minute(), 2 );
-    let xsecond = nf( second(), 2 );
-    let timeString = xhour + ":" + xminute + ":" + xsecond;
+// // forever loop
+// function draw() {
+//     background("skyblue"); // erase
 
-    text(timeString, width/2, height/2);
-}
+//     let xhour = nf( hour(), 2 ); // 24 hour
+//     let xminute = nf( minute(), 2 );
+//     let xsecond = nf( second(), 2 );
+//     let timeString = xhour + ":" + xminute + ":" + xsecond;
+
+//     text(timeString, width/2, height/2);
+// }
 
 
 
