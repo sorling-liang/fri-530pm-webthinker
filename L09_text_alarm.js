@@ -5,7 +5,7 @@ function setup() {
     // give me a canvas of size: 400 by 200
     createCanvas(400, 200);
     // bg colour is skyblue
-    background()
+    background("skyblue");
 }
 
 function draw() {
