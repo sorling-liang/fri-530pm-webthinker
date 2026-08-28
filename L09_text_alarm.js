@@ -14,9 +14,9 @@ function setup() {
 function draw() {
     background("skyblue"); // erase
 
-    let xhour = nf( hour(), 2,3 ); // 24 hour
-    let xminute = nf( minute(), 2,3 );
-    let xsecond = nf( second(), 2,3 );
+    let xhour = nf( hour(), 3,3 ); // 24 hour
+    let xminute = nf( minute(), 3,3 );
+    let xsecond = nf( second(), 3,3 );
     let timeString = xhour + ":" + xminute + ":" + xsecond;
 
     text(timeString, width/2, height/2);
