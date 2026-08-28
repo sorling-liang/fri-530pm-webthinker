@@ -3,8 +3,11 @@ function setup() {
     createCanvas(500,500);
     background(200);
     fill( myfill );
+
+    for (let count=0; count<7; count++) {
     rect(0,0,50,50);
     myfill = myfill + 35;
+    }
 }
 
 
