@@ -12,7 +12,7 @@ function setup() {
 
 // forever loop
 function draw() {
-    let hour;
+    let hour = nf( hour(), 2 );
     let minute;
     let second;
     let timeString = "fake clock";
