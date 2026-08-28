@@ -23,6 +23,9 @@ function drawCircle() {
     }
 }
 
+function mousePressed() {
+    
+}
 // // task 1
 // function setup() {
 //     // give me a canvas of size: 400 by 200
