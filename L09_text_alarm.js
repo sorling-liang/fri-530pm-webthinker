@@ -1,4 +1,6 @@
 // write your codes here
+let xpos;
+let speed;
 
 function setup() {
     createCanvas(500,500);
