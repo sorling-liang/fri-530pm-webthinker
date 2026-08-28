@@ -7,7 +7,7 @@ function setup() {
     createCanvas(400,400);
     background(200);
 
-    intervalObject = setInterval(drawCircle, (1/60)*1000+1); // 1000ms = 1 second
+    intervalObject = setInterval(drawCircle, 800); // 1000ms = 1 second
 }
 
 function draw() {
