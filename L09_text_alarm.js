@@ -15,6 +15,9 @@ function draw() {
     let hour;
     let minute;
     let second;
+    let timeString;
+
+    text(timeString, width/2, height/2);
 }
 
 
