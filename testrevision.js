@@ -6,6 +6,9 @@ function setup() {
     background(200);
     fill( myfill );
 
+    xpos = 0;
+    ypos = 0;
+    
     for (let count=0; count<7; count++) {
         rect(xpos, ypos, 50,50);
         xpos = xpos+50;
