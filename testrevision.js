@@ -4,6 +4,7 @@ let ypos;
 function setup() {
     createCanvas(500,500);
     background(200);
+    //noStroke();
 
     xpos = 50;
     ypos = 50;
