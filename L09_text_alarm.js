@@ -10,5 +10,5 @@ function setup() {
 
 function draw() {
     background("lightgray");
-    text("Bounce!", width/2, height/2);
+    text("Bounce!", xpos, height/2);
 }
