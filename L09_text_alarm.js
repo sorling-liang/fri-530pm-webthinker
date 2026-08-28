@@ -7,13 +7,13 @@ function setup() {
     textAlign(CENTER, CENTER);
     textSize(48);
     xpos = width/2;
-    speed = 2;
+    speed = 0.5;
 }
 
 function draw() {
     background("lightgray");
     text("Bounce!", xpos, height/2);
-    xpos = xpos + 0.5;
+    xpos = xpos + speed;
 
     if (xpos > width) {
         speed = speed * -1;
