@@ -8,10 +8,6 @@ function setup() {
 
     xpos = 50;
     ypos = 50;
-}
-function draw() {
-    // fill("yellow");
-    // triangle(50,100,  100,100,   75,50);
     for (let count=0; count<6; count++) {
         fill( myfill );
         rect(xpos, ypos, 50,50);
@@ -20,3 +16,8 @@ function draw() {
         myfill = myfill + 50;
     }
 }
+// function draw() {
+//     // fill("yellow");
+//     // triangle(50,100,  100,100,   75,50);
+    
+// }
