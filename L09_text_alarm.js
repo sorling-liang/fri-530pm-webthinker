@@ -14,6 +14,10 @@ function draw() {
     background(200);
 }
 
+function drawCircle() {
+    circle()
+}
+
 // // task 1
 // function setup() {
 //     // give me a canvas of size: 400 by 200
