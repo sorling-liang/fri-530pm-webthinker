@@ -5,8 +5,8 @@ function setup() {
     createCanvas(500,500);
     background(200);
 
-    xpos = 0;
-    ypos = 0;
+    xpos = 50;
+    ypos = 50;
 
     for (let count=0; count<6; count++) {
         fill( myfill );
