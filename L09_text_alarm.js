@@ -7,7 +7,7 @@ function setup() {
     textAlign(CENTER, CENTER);
     textSize(48);
     xpos = width/2;
-    speed = 0.5;
+    speed = 2;
 }
 
 function draw() {
@@ -18,7 +18,7 @@ function draw() {
     if (xpos > width) {
         speed = speed * -1;
     }
-    
+
     if (xpos < 0) {
         speed = speed * -1;
     }
