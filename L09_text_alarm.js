@@ -12,10 +12,10 @@ function setup() {
 
 // forever loop
 function draw() {
-    let hour = nf( hour(), 2 );
-    let minute = nf( minute(), 2 );
-    let second = nf( second(), 2 );
-    let timeString = hour + ":" + minute + ":" + second;
+    let xhour = nf( hour(), 2 );
+    let xminute = nf( minute(), 2 );
+    let xsecond = nf( second(), 2 );
+    let timeString = xhour + ":" + xminute + ":" + xsecond;
 
     text(timeString, width/2, height/2);
 }
