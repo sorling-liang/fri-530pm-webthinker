@@ -1,7 +1,15 @@
 // write your codes here
 
+let intervalObject;
+
 // countdown
-function setup()
+function setup() {
+
+}
+
+function draw() {
+
+}
 
 // // task 1
 // function setup() {
