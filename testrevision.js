@@ -4,7 +4,7 @@ function setup() {
     background(200);
     fill( myfill );
     rect(0,0,50,50);
-    fill = fill + 35;
+    myfill = myfill + 35;
 }
 
 
