@@ -10,10 +10,6 @@ function setup() {
     intervalObject = setInterval(drawCircle, 1); // 1000ms = 1 second
 }
 
-function draw() {
-    background(200);
-}
-
 let x = 50;
 function drawCircle() {
     background(200);
