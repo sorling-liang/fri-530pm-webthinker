@@ -13,8 +13,8 @@ function setup() {
 // forever loop
 function draw() {
     background("skyblue"); // erase
-    
-    let xhour = nf( hour(), 2 );
+
+    let xhour = nf( hour(), 2 ); // 24 hour
     let xminute = nf( minute(), 2 );
     let xsecond = nf( second(), 2 );
     let timeString = xhour + ":" + xminute + ":" + xsecond;
