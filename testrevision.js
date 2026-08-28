@@ -1,8 +1,9 @@
-le
+let fill = 0;
 function setup() {
     createCanvas(500,500);
     background(200);
     rect(0,0,50,50);
+    fill = fill + 35;
 }
 
 
