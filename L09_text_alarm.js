@@ -15,7 +15,7 @@ function draw() {
     let hour;
     let minute;
     let second;
-    let timeString;
+    let timeString = "fake clock";
 
     text(timeString, width/2, height/2);
 }
