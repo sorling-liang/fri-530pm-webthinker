@@ -5,11 +5,11 @@ let intervalObject;
 // countdown
 function setup() {
     createCanvas(400,400);
-    background(255);
+    background(200);
 }
 
 function draw() {
-    background(25);
+    background(255);
 }
 
 // // task 1
