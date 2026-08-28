@@ -10,7 +10,6 @@ function setup() {
     xpos = width/2;
     speed = 2;
 }
-
 function draw() {
     background("lightgray");
     text("Bounce!", xpos, height/2);
@@ -19,7 +18,6 @@ function draw() {
     if (xpos > width) {
         speed = speed * -1;
     }
-
     if (xpos < 0) {
         speed = speed * -1;
     }
