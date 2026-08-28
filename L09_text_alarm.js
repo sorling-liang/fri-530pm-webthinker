@@ -12,7 +12,9 @@ function setup() {
 
 // forever loop
 function draw() {
-
+    let hour;
+    let minute;
+    let second;
 }
 
 
