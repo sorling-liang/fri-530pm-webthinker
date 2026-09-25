@@ -69,9 +69,7 @@ function draw() {
     fill("red");
     text(myStory, width/2, height/2+40);
 }
-// function changedText() {
-//     someText = NounInput.value();
-// }
+
 function updateText() {
     // when button is pressed, always choose a different story
     template = random(storyTemplates);
