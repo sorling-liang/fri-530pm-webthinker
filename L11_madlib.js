@@ -82,6 +82,5 @@ function updateText() {
     template = template.replace("{place}", PlaceInput.value());
 
     myStory = template;
-
     print(myStory);
 }
