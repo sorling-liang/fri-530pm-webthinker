@@ -51,7 +51,8 @@ function setup() {
     // colorInput.position(50,50);
 
 
-    let 
+    let oneSentence = "Mary had a little lamb.";
+    oneSentence.replace("")
 }
 function draw() {
     background(220); // erase
