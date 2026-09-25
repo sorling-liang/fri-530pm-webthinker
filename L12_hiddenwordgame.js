@@ -9,10 +9,10 @@ function setup() {
     background("lightgray");
 
     guessInput = createInput();
-    guessInput.position(width/2, height/2+50);
+    guessInput.position(width/2-70, height/2+50);
 
     guessButton = createButton("Guess");
-    guessButton.position(width/2 + guessInput.width +10, height/2+50);
+    guessButton.position(width/2 + guessInput.width -0, height/2+50);
 }
 
 function draw() {
