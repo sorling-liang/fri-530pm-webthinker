@@ -25,6 +25,8 @@ function setup() {
     guessInput.position(width/2-70, height/2+50);
 
     guessButton = createButton("Guess");
+    guessButton.size(150,30);
+    guessButton.style("font-size", "20px");
     guessButton.position(width/2 + guessInput.width -60, height/2+50);
     guessButton.mousePressed(checkGuess);
 }
