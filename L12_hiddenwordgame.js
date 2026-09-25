@@ -23,3 +23,7 @@ function draw() {
     textSize(50);
     text("Guess the Hidden Word!", width/2, height/2-160);
 }
+
+function checkGuess() {
+    print("hello");
+}
