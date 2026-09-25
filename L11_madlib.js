@@ -58,6 +58,7 @@ function setup() {
 function draw() {
     background(220); // erase
     // fill(colorInput.value());
+    text("black");
     textAlign(RIGHT,CENTER);
     textSize(18);
     text("Enter a noun, e.g. a dog",       width/2,  45);
