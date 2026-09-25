@@ -6,7 +6,7 @@ let AdverbInput;
 let PlaceInput;
 
 // let colorInput;
-let myStory;
+let myStory = "";
 let someButton;
 
 let storyTemplates;
