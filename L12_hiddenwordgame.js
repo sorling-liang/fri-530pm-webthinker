@@ -32,4 +32,5 @@ function draw() {
 
 function checkGuess() {
     print("hello");
+    attempts++;
 }
