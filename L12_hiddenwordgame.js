@@ -9,7 +9,7 @@ function setup() {
     background("lightgray");
 
     guessInput = createInput();
-    guessInput.position(width/2-70, height/2+50);
+    guessInput.position(width/2-70, height/2);
 
     guessButton = createButton("Guess");
     guessButton.position(width/2 + guessInput.width -60, height/2+50);
