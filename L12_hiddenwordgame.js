@@ -18,5 +18,7 @@ function setup() {
 function draw() {
     background("lightgray"); // erase all
 
-    textAl
+    textAlign(CENTER, CENTER);
+    textSize(60);
+    text()
 }
