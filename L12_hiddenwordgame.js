@@ -8,7 +8,8 @@ function setup() {
     createCanvas(800, 700);
     background("lightgray");
 
-    
+    guessInput = createInput();
+    guessInput.position(width/2, )
 }
 
 function draw() {
