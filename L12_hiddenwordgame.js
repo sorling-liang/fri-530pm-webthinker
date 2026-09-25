@@ -5,6 +5,7 @@ let attempts = 0;
 let hintWord = "S _ _ _ _";
 
 let myWordList;
+let hiddenWord;
 
 function setup() {
     // create canvas 800,700
@@ -12,6 +13,7 @@ function setup() {
 
     myWordList = ["green", "black", "light", "watch", "apple", 
         "round", "short", "shirt", "cover", "power"];
+    hiddenWord = ran
 
     createCanvas(800, 700);
     background("lightgray");
