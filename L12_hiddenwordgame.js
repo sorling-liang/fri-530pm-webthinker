@@ -17,4 +17,6 @@ function setup() {
 
 function draw() {
     background("lightgray"); // erase all
+
+    textAl
 }
