@@ -69,7 +69,7 @@ function draw() {
 
     textAlign(CENTER, CENTER);
     fill("red");
-    text(myStory, width/2, height/2+200);
+    text(myStory, width/2, height/2+40);
 }
 // function changedText() {
 //     someText = NounInput.value();
