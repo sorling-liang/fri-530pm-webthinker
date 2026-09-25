@@ -10,7 +10,7 @@ function setup() {
     // create canvas 800,700
     // color lightgray
 
-    myWordList = [""];
+    myWordList = ["green", "black"];
 
     createCanvas(800, 700);
     background("lightgray");
