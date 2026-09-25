@@ -21,8 +21,6 @@ function setup() {
         "In the {place}, a {adj} {noun} is {verb} {adv} on the floor."
     ];
 
-    
-
     createCanvas(600,400);
     background(220);
     fill("black");
