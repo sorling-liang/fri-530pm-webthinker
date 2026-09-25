@@ -1,10 +1,14 @@
 // write your codes here
-let 
+let guessInput;
+let guessButton;
+
 function setup() {
     // create canvas 800,700
     // color lightgray
     createCanvas(800, 700);
     background("lightgray");
+
+    
 }
 
 function draw() {
