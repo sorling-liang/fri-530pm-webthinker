@@ -25,8 +25,8 @@ function draw() {
     textSize(50);
     text("Guess the Hidden Word!", width/2, height/2-160);
 
-    text("Attempts:" + attempts,   width/2, height/2-110);
-    text("Hints:" + hintWord,      width/2, height/2-60);
+    text("Attempts:" + attempts,   width/2, height/2-100);
+    text("Hints:" + hintWord,      width/2, height/2-40);
 
 }
 
