@@ -52,7 +52,7 @@ function setup() {
 
 
     let oneSentence = "Mary had a little lamb.";
-    oneSentence = oneSentence.replace("lam", "XXXXX");
+    oneSentence = oneSentence.replace("l", "X");
     print(oneSentence);
 }
 function draw() {
