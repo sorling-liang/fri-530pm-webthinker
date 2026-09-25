@@ -13,7 +13,7 @@ function setup() {
 
     myWordList = ["green", "black", "light", "watch", "apple", 
         "round", "short", "shirt", "cover", "power"];
-    hiddenWord = ran
+    hiddenWord = random(myWordList);
 
     createCanvas(800, 700);
     background("lightgray");
