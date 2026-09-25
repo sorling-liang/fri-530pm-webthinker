@@ -67,7 +67,8 @@ function draw() {
     text("Enter a place, e.g. Ang Mo Kio", width/2, 165);
 
     textAlign(CENTER, CENTER);
-    text(myStory, width/2, )
+    fill("red");
+    text(myStory, width/2, height/2+200);
 }
 // function changedText() {
 //     someText = NounInput.value();
