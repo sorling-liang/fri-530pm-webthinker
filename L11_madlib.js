@@ -52,7 +52,8 @@ function setup() {
 
 
     let oneSentence = "Mary had a little lamb.";
-    oneSentence.replace("tt", "XXX")
+    oneSentence.replace("tt", "XXX");
+    
 }
 function draw() {
     background(220); // erase
