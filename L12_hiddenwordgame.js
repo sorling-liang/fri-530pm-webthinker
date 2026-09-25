@@ -9,6 +9,9 @@ let myWordList;
 function setup() {
     // create canvas 800,700
     // color lightgray
+
+    myWordList = [""];
+
     createCanvas(800, 700);
     background("lightgray");
 
