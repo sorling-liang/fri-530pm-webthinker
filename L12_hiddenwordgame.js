@@ -2,7 +2,8 @@
 function setup() {
     // create canvas 800,700
     // color lightgray
-    createCanvas()
+    createCanvas(800, 700);
+    background("lightgray");
 }
 
 function draw() {
