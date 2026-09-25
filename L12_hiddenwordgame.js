@@ -1,6 +1,8 @@
 // write your codes here
 function setup() {
-    // 800,700
+    // create canvas 800,700
+    // color lightgray
+    createCanvas()
 }
 
 function draw() {
