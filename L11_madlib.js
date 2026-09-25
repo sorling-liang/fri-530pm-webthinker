@@ -49,6 +49,9 @@ function setup() {
 
     // colorInput = createColorPicker("black");
     // colorInput.position(50,50);
+
+
+    let 
 }
 function draw() {
     background(220); // erase
