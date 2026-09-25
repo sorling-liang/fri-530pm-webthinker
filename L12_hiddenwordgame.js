@@ -14,7 +14,7 @@ function setup() {
     myWordList = ["green", "black", "light", "watch", "apple", 
         "round", "short", "shirt", "cover", "power"];
     hiddenWord = random(myWordList);
-    print("the hidden is: " + hiddenWord);
+    print("the hidden is: " + hiddenWord); // console.log
     
     createCanvas(800, 700);
     background("lightgray");
