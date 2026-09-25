@@ -81,12 +81,12 @@ function updateText() {
     myStory = template;
 
     // someText = NounInput.value();
-    print(NounInput.value());
-    print(VerbInput.value());
-    print(AdjectiveInput.value());
-    print(AdverbInput.value());
-    print(PlaceInput.value());
+    // print(NounInput.value());
+    // print(VerbInput.value());
+    // print(AdjectiveInput.value());
+    // print(AdverbInput.value());
+    // print(PlaceInput.value());
 
-    print("my story is generated");
+    // print("my story is generated");
     print(myStory);
 }
