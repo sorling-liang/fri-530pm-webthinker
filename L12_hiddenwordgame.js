@@ -27,7 +27,6 @@ function draw() {
 
     text("Attempts:" + attempts,   width/2, height/2-100);
     text("Hints:" + hintWord,      width/2, height/2-40);
-
 }
 
 function checkGuess() {
