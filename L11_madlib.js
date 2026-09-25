@@ -66,7 +66,8 @@ function draw() {
     text("Enter an adverb, e.g. angrily",  width/2, 135);
     text("Enter a place, e.g. Ang Mo Kio", width/2, 165);
 
-    textAlign
+    textAlign(CENTER, CENTER);
+    text(myStory, width/2, )
 }
 // function changedText() {
 //     someText = NounInput.value();
