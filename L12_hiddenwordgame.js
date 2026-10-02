@@ -55,7 +55,8 @@ function generateHint(aWord) {
 
 function checkGuess() {
     print("hello");
-    
+    let guess = guessInput.value();
+    guess = g
     if (guessInput.value() === hiddenWord) {
 
     }
