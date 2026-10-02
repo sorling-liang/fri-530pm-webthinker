@@ -55,6 +55,9 @@ function generateHint(aWord) {
 
 function checkGuess() {
     print("hello");
-    if (g)
+    
+    if (guessInput.value() === hiddenWord) {
+
+    }
     attempts++; // attempts += 1;   // attempt = attempt + 1;
 }
