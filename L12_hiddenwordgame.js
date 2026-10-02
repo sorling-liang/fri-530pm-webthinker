@@ -55,7 +55,7 @@ function draw() {
 }
 
 function generateHint(aWord) {
-    print("word len =" + aWord.length);
+    ("word len =" + aWord.length);
     let partial = " _".repeat(aWord.length-1);
     print("the partial is " + partial);
     return aWord[0] + partial;
@@ -69,7 +69,6 @@ function checkGuess() {
     if (guess === hiddenWord) {
         ultraExtraHints = "";
         message = "You won! You've guessed the word.";
-        print(message);
     } 
     else if (guess.length > 5) {
         // data validation
