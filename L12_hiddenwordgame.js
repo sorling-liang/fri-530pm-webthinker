@@ -72,6 +72,6 @@ function checkGuess() {
     }
 }
 
-function getCorrectLetter(source, hiddenWord) {
+function getCorrectLetter(source, target) {
 
 }
