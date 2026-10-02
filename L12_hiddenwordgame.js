@@ -73,7 +73,7 @@ function checkGuess() {
     } 
     else {
         attempts++; 
-        getCorrectLetter(guess, hiddenWord);
+        ultraExtraHints = getCorrectLetter(guess, hiddenWord);
     }
 }
 
