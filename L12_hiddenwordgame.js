@@ -73,7 +73,7 @@ function checkGuess() {
     } 
     else if (guess.length > 5) {
         // data validation
-        ultraExtraHints = ""
+        ultraExtraHints = "You must guess a 5-letter word!";
     }
     else {
         attempts++; 
