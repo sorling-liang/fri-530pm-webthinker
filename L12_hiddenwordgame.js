@@ -6,6 +6,7 @@ let hintWord = "S _ _ _ _";
 
 let myWordList;
 let hiddenWord;
+let message;
 
 function setup() {
     // create canvas 800,700
