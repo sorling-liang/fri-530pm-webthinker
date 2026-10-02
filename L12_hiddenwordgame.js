@@ -60,5 +60,7 @@ function checkGuess() {
     if (guess === hiddenWord) {
 
     }
-    attempts++; // attempts += 1;   // attempt = attempt + 1;
+    else {
+        attempts++; // attempts += 1;   // attempt = attempt + 1;
+    }
 }
