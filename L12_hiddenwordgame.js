@@ -18,7 +18,6 @@ function setup() {
         "round", "short", "shirt", "cover", "power"];
     hiddenWord = random(myWordList);
     hiddenWord = hiddenWord.toUpperCase(); // all uppercase letters
-    print("the hidden is: " + hiddenWord); // console.log
 
     hintWord = generateHint(hiddenWord);
     
