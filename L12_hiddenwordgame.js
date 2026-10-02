@@ -8,6 +8,8 @@ let myWordList;
 let hiddenWord;
 let message = ""; // empty string
 
+let ultraExtraHints = "";
+
 function setup() {
     // create canvas 800,700
     // color lightgray
