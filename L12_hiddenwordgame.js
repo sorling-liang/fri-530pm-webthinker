@@ -78,7 +78,7 @@ function checkGuess() {
 }
 
 function getCorrectLetter(inputValue, randomWord) {
-    let matchedLetters = "";
+    let matchedLetters = "SR";
     // loop each letter in inputValue
     for (let aLetter of inputValue) {
         if (randomWord.includes(aLetter)) {
