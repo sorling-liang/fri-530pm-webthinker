@@ -68,10 +68,10 @@ function checkGuess() {
     } 
     else {
         attempts++; 
-        getCorrectLetter(guess , hiddenWord);
+        getCorrectLetter(guess, hiddenWord);
     }
 }
 
-function getCorrectLetter(guess, hiddenWord) {
+function getCorrectLetter(source, hiddenWord) {
 
 }
