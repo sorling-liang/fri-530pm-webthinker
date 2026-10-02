@@ -17,7 +17,7 @@ function setup() {
     hiddenWord = hiddenWord.toUpperCase(); // all uppercase letters
     print("the hidden is: " + hiddenWord); // console.log
 
-    hintWord = generateHint("occasion".toUpperCase());
+    hintWord = generateHint("incidentally".toUpperCase());
     
     createCanvas(800, 700);
     background("lightgray");
