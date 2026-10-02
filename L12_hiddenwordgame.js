@@ -71,8 +71,9 @@ function checkGuess() {
         message = "You won! You've guessed the word.";
         print(message);
     } 
-    else if () {
+    else if (guess.length > 5) {
         // data validation
+        ultraExtraHints = ""
     }
     else {
         attempts++; 
