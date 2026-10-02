@@ -72,6 +72,6 @@ function checkGuess() {
     }
 }
 
-function getCorrectLetter(abc, def) {
+function getCorrectLetter(inputValue, randomWord) {
 
 }
