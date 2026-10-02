@@ -49,6 +49,7 @@ function draw() {
 function generateHint(aWord) {
 
 }
+
 function checkGuess() {
     print("hello");
     attempts++; // attempts += 1;   // attempt = attempt + 1;
