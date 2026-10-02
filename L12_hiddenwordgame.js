@@ -71,6 +71,9 @@ function checkGuess() {
         message = "You won! You've guessed the word.";
         print(message);
     } 
+    else if () {
+        // data validation
+    }
     else {
         attempts++; 
         ultraExtraHints = getCorrectLetter(guess, hiddenWord);
