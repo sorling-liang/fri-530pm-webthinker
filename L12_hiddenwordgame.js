@@ -49,8 +49,8 @@ function draw() {
     text("Hints: " + hintWord,      width/2, height/2-40);
 
     textSize(28);
-    text(message,         width/2, height/2+150);
-    text(ultraExtraHints, width/2, height/2+150);
+    text(message,             width/2, height/2+150);
+    text(ultraExtraHints,     width/2, height/2+150);
 }
 
 function generateHint(aWord) {
