@@ -50,6 +50,7 @@ function draw() {
 
     textSize(28);
     text(message, width/2, height/2+150);
+    text(ultraExtraHints, width/2, height/2+150);
 }
 
 function generateHint(aWord) {
