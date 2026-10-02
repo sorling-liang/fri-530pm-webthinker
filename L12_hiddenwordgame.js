@@ -26,13 +26,13 @@ function setup() {
     guessInput = createInput();
     guessInput.size(150,30);
     guessInput.style("font-size", "20px");
-    guessInput.position(width/2-70, height/2+50);
+    guessInput.position(width/2-100, height/2+50);
 
     guessButton = createButton("Guess");
     guessButton.size(150,36);
     guessButton.style("font-size", "20px");
     guessButton.style("border", "2px solid red");
-    guessButton.position(width/2 + guessInput.width -60, height/2+50);
+    guessButton.position(width/2 + guessInput.width -80, height/2+50);
     guessButton.mousePressed(checkGuess);
 }
 
