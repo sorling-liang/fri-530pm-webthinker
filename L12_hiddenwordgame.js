@@ -56,8 +56,8 @@ function generateHint(aWord) {
 function checkGuess() {
     print("hello");
     let guess = guessInput.value();
-    guess = g
-    if (guessInput.value() === hiddenWord) {
+    guess = guess.toUpperCase();
+    if (guess === hiddenWord) {
 
     }
     attempts++; // attempts += 1;   // attempt = attempt + 1;
