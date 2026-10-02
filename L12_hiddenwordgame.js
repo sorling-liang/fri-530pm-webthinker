@@ -67,6 +67,7 @@ function checkGuess() {
     guess = guess.toUpperCase();
 
     if (guess === hiddenWord) {
+        ultraExtraHints = "";
         message = "You won! You've guessed the word.";
         print(message);
     } 
