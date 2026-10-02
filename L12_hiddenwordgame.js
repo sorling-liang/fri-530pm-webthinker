@@ -47,6 +47,7 @@ function draw() {
 }
 
 function generateHint(aWord) {
+    print(aWord.length);
     return aWord[0];
 }
 
