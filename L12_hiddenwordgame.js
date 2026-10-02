@@ -59,6 +59,7 @@ function checkGuess() {
     guess = guess.toUpperCase();
     if (guess === hiddenWord) {
         message = "You won! You've guessed the word.";
+        print(message);
     }
     else {
         attempts++; // attempts += 1;   // attempt = attempt + 1;
