@@ -60,7 +60,7 @@ function checkGuess() {
     if (guess === hiddenWord) {
         message = "You won! You've guessed the word.";
         print(message);
-    }
+    } 
     else {
         attempts++; 
     }
