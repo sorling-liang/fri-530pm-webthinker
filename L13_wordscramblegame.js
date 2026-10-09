@@ -42,7 +42,7 @@ function shuffleWord(someWord) {
     let arraySome = someWord.split(""); // from string become an Array
     // loop from big to 0
     for (let i = arraySome.length-1; i > 0; i--) {
-        let j =
+        let j = floor(random())
 
     }
     return "";
