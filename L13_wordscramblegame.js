@@ -10,7 +10,9 @@ let guessInput;
 let submitButton;
 
 let score = 0;
-let 
+let streak = 0;
+let max = 0;
+
 function setup() {
     createCanvas(1000,700);
     background("skyblue");
@@ -38,6 +40,6 @@ function draw() {
     text("Random Word: NOTEBOOK", width/2, 205);
 
     textSize(28);
-    text("Score: 0",           width/2, height/2+80);
-    text("Streak: 0 (Max: 0)", width/2, height/2+120);
+    text("Score: " + score,           width/2, height/2+80);
+    text("Streak: " + s+" (Max: 0)", width/2, height/2+120);
 }
