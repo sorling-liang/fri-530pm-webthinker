@@ -37,10 +37,11 @@ function setup() {
     hiddenword = random(WORDS); // pick a random word
 }
 function shuffleWord() {
-    
+
 }
 function pickNewWord() {
-
+    hiddenword = random(WORDS);
+    messedup = shuffleWord
 }
 function draw() {
     fill("black");
