@@ -14,7 +14,7 @@ function setup() {
     background("skyblue");
 
     submitButton = createButton("Submit");
-    s
+    submitButton.position(width/2, height/2);
 }
 function draw() {
     fill("black");
