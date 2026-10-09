@@ -38,5 +38,4 @@ function draw() {
     textSize(28);
     text("Score: 0", width/2, height/2+80);
     text("Streak: 0 (Max: 0)", width/2, height/2+120);
-
 }
