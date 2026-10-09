@@ -14,15 +14,15 @@ function setup() {
     background("skyblue");
 
     rescrambleButton = createButton("Rescramble");
-    rescrambleButton.position(250, height/2);
+    rescrambleButton.position(270, height/2);
     rescrambleButton.size(105,35);
 
     guessInput = createInput();
-    guessInput.position(380, height/2);
+    guessInput.position(400, height/2);
     guessInput.size(200,30);
 
     submitButton = createButton("Submit");
-    submitButton.position(width/2+110, height/2);
+    submitButton.position(width/2+130, height/2);
     submitButton.size(60,35);
 }
 function draw() {
