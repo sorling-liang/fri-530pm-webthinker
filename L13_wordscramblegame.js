@@ -36,13 +36,14 @@ function setup() {
 
     hiddenword = random(WORDS); // pick a random word
 }
-function shuffleWord(hiddenword) {
+function shuffleWord(someWord) {
 
 }
 function pickNewWord() {
     hiddenword = random(WORDS);
     messedup = shuffleWord(hiddenword);
 }
+
 function draw() {
     fill("black");
     textSize(34);
