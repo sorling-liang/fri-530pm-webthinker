@@ -39,7 +39,7 @@ function setup() {
     print("the secret is " + hiddenword);
 }
 function shuffleWord(someWord) {
-    let arrChars = 
+    let arrChars = someWord.split(""); // from string become an Array
     return "";
 }
 function pickNewWord() {
