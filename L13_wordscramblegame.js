@@ -5,6 +5,7 @@ const WORDS = [
     "bumblebee","chimpanzee","hippopotamus"
 ];
 
+let 
 
 function setup() {
     createCanvas(1000,700);
