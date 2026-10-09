@@ -16,7 +16,6 @@ function setup() {
     rescrambleButton = createButton("Rescramble");
     rescrambleButton.position(270, height/2-50);
     rescrambleButton.style("font-size", "20px");
-    
     rescrambleButton.size(105,35);
 
     guessInput = createInput();
@@ -26,6 +25,8 @@ function setup() {
 
     submitButton = createButton("Submit");
     submitButton.position(width/2+130, height/2-50);
+        rescrambleButton.style("font-size", "20px");
+
     submitButton.size(60,35);
 }
 function draw() {
