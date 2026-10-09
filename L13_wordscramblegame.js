@@ -15,7 +15,7 @@ function setup() {
 
     rescrambleButton = createButton("Rescramble");
     rescrambleButton.position(250, height/2);
-    rescrambleButton.size(35,105);
+    rescrambleButton.size(60,105);
 
     submitButton = createButton("Submit");
     submitButton.position(width/2, height/2);
