@@ -14,6 +14,7 @@ let streak = 0;
 let max = 0;
 
 let hiddenword;
+let messedup;
 
 function setup() {
     createCanvas(1000,700);
