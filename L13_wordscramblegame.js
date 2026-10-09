@@ -6,7 +6,7 @@ const WORDS = [
 ];
 
 function setup() {
-    createCanvas(400,400);
+    createCanvas(1000,700);
     background("skyblue");
 }
 function draw() {
