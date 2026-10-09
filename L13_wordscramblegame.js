@@ -5,10 +5,11 @@ const WORDS = [
     "bumblebee","chimpanzee","hippopotamus"
 ];
 
+
 function setup() {
     createCanvas(1000,700);
     background("skyblue");
 }
 function draw() {
-
+    textSize()
 }
