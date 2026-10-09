@@ -33,5 +33,7 @@ function draw() {
     text("Random Word: NOTEBOOK", width/2, 205);
 
     text("Score: 0", width/2, height/2+50);
+    text("Streak: 0 (Max", width/2, height/2+50);
+    text("Score: 0", width/2, height/2+50);
 
 }
