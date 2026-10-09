@@ -32,8 +32,8 @@ function draw() {
     text("Word Scramble Game", width/2, 75);
     text("Random Word: NOTEBOOK", width/2, 205);
 
-    textSize()
+    textSize(28);
     text("Score: 0", width/2, height/2+80);
-    text("Streak: 0 (Max: 0)", width/2, height/2+140);
+    text("Streak: 0 (Max: 0)", width/2, height/2+120);
 
 }
