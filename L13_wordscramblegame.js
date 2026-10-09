@@ -45,7 +45,8 @@ function shuffleWord(someWord) {
         let j = floor(random(0, i-1));
         let memory = arraySome[j];
         // swopping
-        arraySome[j] = a
+        arraySome[j] = arraySome[i];
+        arraySome[i] = memory;
     }
     return "";
 }
