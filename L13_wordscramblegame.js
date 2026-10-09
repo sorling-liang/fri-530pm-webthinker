@@ -13,5 +13,5 @@ function setup() {
 function draw() {
     textSize(34);
     textAlign(CENTER, CENTER);
-    text("", width/2, 75)
+    text("Word Scramble Game", width/2, 75);
 }
