@@ -38,7 +38,7 @@ function setup() {
     hiddenword = random(WORDS); // pick a random word
 }
 function shuffleWord(someWord) {
-
+    return "";
 }
 function pickNewWord() {
     hiddenword = random(WORDS);
