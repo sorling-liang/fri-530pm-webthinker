@@ -33,6 +33,8 @@ function setup() {
     submitButton.position(width/2+160, height/2-50);
     submitButton.style("font-size", "20px");
     submitButton.size(80,35);
+
+    hiddenword = random(WORDS); // pick a random word
 }
 function draw() {
     fill("black");
