@@ -15,7 +15,7 @@ function setup() {
 
     submitButton = createButton("Submit");
     submitButton.position(width/2, height/2);
-    submitButton.
+    submitButton.size(80,50);
 }
 function draw() {
     fill("black");
