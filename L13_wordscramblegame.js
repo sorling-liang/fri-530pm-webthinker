@@ -11,5 +11,7 @@ function setup() {
     background("skyblue");
 }
 function draw() {
-    textSize()
+    textSize(34);
+    textAlign(CENTER, CENTER);
+    text("", width/2, 75)
 }
