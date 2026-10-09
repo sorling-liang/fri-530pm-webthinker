@@ -17,6 +17,7 @@ function setup() {
     rescrambleButton.position(250, height/2);
     rescrambleButton.size(105,35);
 
+    guessInput = cre
     submitButton = createButton("Submit");
     submitButton.position(width/2, height/2);
     submitButton.size(60,35);
