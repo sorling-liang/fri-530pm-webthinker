@@ -44,6 +44,8 @@ function shuffleWord(someWord) {
     for (let i = arraySome.length-1; i > 0; i--) {
         let j = floor(random(0, i-1));
         let memory = arraySome[j];
+        // swopping
+        
     }
     return "";
 }
