@@ -9,6 +9,8 @@ let rescrambleButton;
 let guessInput;
 let submitButton;
 
+let score = 0;
+let 
 function setup() {
     createCanvas(1000,700);
     background("skyblue");
