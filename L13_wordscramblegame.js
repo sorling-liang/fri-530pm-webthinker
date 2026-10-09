@@ -36,6 +36,12 @@ function setup() {
 
     hiddenword = random(WORDS); // pick a random word
 }
+function shuffleWord() {
+    
+}
+function pickNewWord() {
+
+}
 function draw() {
     fill("black");
     textSize(34);
