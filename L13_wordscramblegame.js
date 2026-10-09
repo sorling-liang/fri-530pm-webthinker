@@ -32,10 +32,10 @@ function draw() {
     fill("black");
     textSize(34);
     textAlign(CENTER, CENTER);
-    text("Word Scramble Game", width/2, 75);
+    text("Word Scramble Game",    width/2, 75);
     text("Random Word: NOTEBOOK", width/2, 205);
 
     textSize(28);
-    text("Score: 0", width/2, height/2+80);
+    text("Score: 0",           width/2, height/2+80);
     text("Streak: 0 (Max: 0)", width/2, height/2+120);
 }
