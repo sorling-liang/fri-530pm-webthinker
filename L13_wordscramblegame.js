@@ -1,6 +1,6 @@
 // write your codes here
 
-const WORDS = ["","","watermelon"];
+const WORDS = ["intentions","nationality","watermelon"];
 
 function setup() {
     createCanvas(400,400);
