@@ -18,11 +18,11 @@ function setup() {
     rescrambleButton.size(105,35);
 
     guessInput = createInput();
-    guessInput.position(400, height/2);
+    guessInput.position(370, height/2);
     guessInput.size(200,35);
 
     submitButton = createButton("Submit");
-    submitButton.position(width/2, height/2);
+    submitButton.position(width/2+200, height/2);
     submitButton.size(60,35);
 }
 function draw() {
