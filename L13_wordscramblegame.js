@@ -5,7 +5,9 @@ const WORDS = [
     "bumblebee","chimpanzee","hippopotamus"
 ];
 
-let 
+let rescrambleButton;
+let guessInput;
+let submitButton;
 
 function setup() {
     createCanvas(1000,700);
