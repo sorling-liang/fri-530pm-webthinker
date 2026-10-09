@@ -36,7 +36,7 @@ function setup() {
     submitButton.size(80,35);
 
     hiddenword = pickNewWord(); // pick a random word
-    print(hiddenword);
+    print("the secret is " + hiddenword);
 }
 function shuffleWord(someWord) {
     return "";
