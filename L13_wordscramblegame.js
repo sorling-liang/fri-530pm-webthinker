@@ -3,7 +3,7 @@
 const WORDS = [
     "intentions","nationality","watermelon",
     "cabybara","notebook","honeymelon",
-    "bumblebee","chimpanzee","hippop"
+    "bumblebee","chimpanzee","hippopotanus"
 ];
 
 function setup() {
