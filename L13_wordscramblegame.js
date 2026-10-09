@@ -13,9 +13,9 @@ function setup() {
     createCanvas(1000,700);
     background("skyblue");
 
-    rescrambleButton = createButton("Submit");
+    rescrambleButton = createButton("Rescramble");
     rescrambleButton.position(250, height/2);
-    rescrambleButton.size(60,35);
+    rescrambleButton.size(60,65);
 
     submitButton = createButton("Submit");
     submitButton.position(width/2, height/2);
