@@ -25,8 +25,7 @@ function setup() {
 
     submitButton = createButton("Submit");
     submitButton.position(width/2+130, height/2-50);
-        rescrambleButton.style("font-size", "20px");
-
+    submitButton.style("font-size", "20px");
     submitButton.size(60,35);
 }
 function draw() {
