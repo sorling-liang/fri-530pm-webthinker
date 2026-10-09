@@ -13,7 +13,8 @@ function setup() {
     createCanvas(1000,700);
     background("skyblue");
 
-    submitButton = createButton("submit");
+    submitButton = createButton("Submit");
+    s
 }
 function draw() {
     fill("black");
