@@ -35,7 +35,8 @@ function setup() {
     submitButton.style("font-size", "20px");
     submitButton.size(80,35);
 
-    hiddenword = random(WORDS); // pick a random word
+    hiddenword = pickNewWord(); // pick a random word
+    print(hiddenword);
 }
 function shuffleWord(someWord) {
     return "";
