@@ -1,5 +1,4 @@
 // write your codes here
-
 const WORDS = [
     "intentions","nationality","watermelon",
     "cabybara","notebook","honeymelon",
