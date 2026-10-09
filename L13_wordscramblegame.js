@@ -13,6 +13,8 @@ let score = 0;
 let streak = 0;
 let max = 0;
 
+let hiddenword;
+
 function setup() {
     createCanvas(1000,700);
     background("skyblue");
