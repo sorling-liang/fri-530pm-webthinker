@@ -19,14 +19,14 @@ function setup() {
     rescrambleButton.size(135,35);
 
     guessInput = createInput();
-    guessInput.position(400, height/2-50);
+    guessInput.position(430, height/2-50);
     guessInput.style("font-size", "20px");
     guessInput.size(200,30);
 
     submitButton = createButton("Submit");
     submitButton.position(width/2+130, height/2-50);
     submitButton.style("font-size", "20px");
-    submitButton.size(70,35);
+    submitButton.size(80,35);
 }
 function draw() {
     fill("black");
