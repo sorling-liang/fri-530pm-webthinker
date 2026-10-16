@@ -74,7 +74,7 @@ function pickNewWord() {
 }
 
 function draw() {
-    background("skyblue");
+    background("skyblue"); // erase
 
     fill("black");
     textSize(34);
