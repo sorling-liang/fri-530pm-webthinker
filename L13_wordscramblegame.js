@@ -34,6 +34,7 @@ function setup() {
     submitButton.position(width/2+160, height/2-50);
     submitButton.style("font-size", "20px");
     submitButton.size(80,35);
+    submitButton.mousePressed()
 
     hiddenword = pickNewWord(); // pick a random word
     print("the secret is " + hiddenword);
