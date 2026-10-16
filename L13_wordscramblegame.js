@@ -48,6 +48,7 @@ function checkGuess() {
     guess = guess.toUpperCase();
     if (guess === hiddenword) {
         console.log("you guessed it correctly.")
+        score++;
     }
 }
 
