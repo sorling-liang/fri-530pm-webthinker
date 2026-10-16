@@ -24,7 +24,7 @@ function setup() {
     rescrambleButton.position(270, height/2-50);
     rescrambleButton.style("font-size", "20px");
     rescrambleButton.size(135,35); // width then height
-    rescrambleButton.mousePressed(re)
+    rescrambleButton.mousePressed(rescrambleWord);
 
     guessInput = createInput();
     guessInput.position(430, height/2-50);
