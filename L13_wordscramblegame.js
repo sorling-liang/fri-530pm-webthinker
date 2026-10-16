@@ -74,6 +74,8 @@ function pickNewWord() {
 }
 
 function draw() {
+    background("skyblue");
+
     fill("black");
     textSize(34);
     textAlign(CENTER, CENTER);
