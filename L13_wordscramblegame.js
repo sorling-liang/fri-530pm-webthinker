@@ -44,7 +44,7 @@ function rescrambleWord() {
     messedup = shuffleWord(hiddenword);
 }
 function checkGuess() {
-
+    let guess = g
 }
 
 function shuffleWord(someWord) {
