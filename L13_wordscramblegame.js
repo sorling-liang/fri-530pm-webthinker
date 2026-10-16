@@ -38,6 +38,7 @@ function setup() {
     hiddenword = pickNewWord(); // pick a random word
     print("the secret is " + hiddenword);
 }
+
 function shuffleWord(someWord) {
     let arraySome = someWord.split(""); // from string become an Array
     // loop from big to 0
@@ -50,6 +51,8 @@ function shuffleWord(someWord) {
     }
     return arraySome.join(""); // from Array back to a String
 }
+
+
 function pickNewWord() {
     hiddenword = random(WORDS);
     hiddenword = hiddenword.toUpperCase();
