@@ -41,7 +41,10 @@ function setup() {
     print("the secret is " + hiddenword);
 }
 function rescrambleWord() {
-messedup = shuffleWord(hiddenword);
+    messedup = shuffleWord(hiddenword);
+}
+function checkGuess() {
+
 }
 
 function shuffleWord(someWord) {
