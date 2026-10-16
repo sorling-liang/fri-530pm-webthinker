@@ -44,7 +44,8 @@ function rescrambleWord() {
     messedup = shuffleWord(hiddenword);
 }
 function checkGuess() {
-    let guess = g
+    let guess = guessInput.value();
+    guess = guess.toUpperCase();
 }
 
 function shuffleWord(someWord) {
