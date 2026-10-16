@@ -40,6 +40,9 @@ function setup() {
     hiddenword = pickNewWord(); // pick a random word
     print("the secret is " + hiddenword);
 }
+function rescrambleWord() {
+
+}
 
 function shuffleWord(someWord) {
     let arraySome = someWord.split(""); // from string become an Array
